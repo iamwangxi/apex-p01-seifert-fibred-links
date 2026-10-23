@@ -26,7 +26,7 @@ Checked Lemma 1.10, pp. 19–20 (solid-torus disks); Lemma 1.11, p. 20 (essentia
 
 **Jennifer Schultens.** *Kakimizu complexes of Seifert fibered spaces*. *Algebraic & Geometric Topology* **18** (2018), 2897–2918. [DOI 10.2140/agt.2018.18.2897](https://doi.org/10.2140/agt.2018.18.2897). Acquisition: supplied journal PDF.
 
-Checked §6, pp. 2906–2907, Definitions 21–24 and Proposition 25, with its proof on pp. 2907–2911. The proposition concerns regular essential closed curves in a **closed good aspherical orbifold**. Section 3 proves these hypotheses, including infinite order in the separating two-boundary case, before applying it. The regular-part fold is made into an orbifold-group retraction explicitly. Remark 35, p. 2911, is not used as a boundary-and-arc theorem. No automatic use of the paper's vertical-complex identification for this prescribed-boundary object is made.
+Checked §6: Definitions 21–24 on pp. 2906–2907 and Proposition 25 on p. 2907; its supporting lemmas run through pp. 2907–2911, and the proof of Proposition 25 is on pp. 2911–2912. The proposition concerns regular essential closed curves in a **closed good aspherical orbifold**. Section 3 proves these hypotheses, including infinite order in the separating two-boundary case, before applying it. The regular-part fold is made into an orbifold-group retraction explicitly. Remark 35, p. 2912, is not used as a boundary-and-arc theorem. No automatic use of the paper's vertical-complex identification for this prescribed-boundary object is made.
 
 ## Przytycki–Schultens: early distance and simplified intersection
 

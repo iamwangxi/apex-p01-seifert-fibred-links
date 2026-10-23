@@ -1,0 +1,1710 @@
+{
+  "status": "passed",
+  "independent_from_author_checker": true,
+  "arithmetic": "fractions.Fraction and integers",
+  "cases": [
+    {
+      "name": "original_double_lens",
+      "actual_boundaries": 4,
+      "vertices": {
+        "1": [
+          "0",
+          "0"
+        ],
+        "2": [
+          "5",
+          "0"
+        ],
+        "3": [
+          "2",
+          "0"
+        ],
+        "4": [
+          "7",
+          "0"
+        ]
+      },
+      "positive_vertices": [
+        1,
+        2
+      ],
+      "edges": {
+        "e0": {
+          "negative": 3,
+          "positive": 1,
+          "polyline": [
+            [
+              "2",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ]
+        },
+        "e1": {
+          "negative": 3,
+          "positive": 1,
+          "polyline": [
+            [
+              "2",
+              "0"
+            ],
+            [
+              "1",
+              "-1"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ]
+        },
+        "f0": {
+          "negative": 4,
+          "positive": 2,
+          "polyline": [
+            [
+              "7",
+              "0"
+            ],
+            [
+              "5",
+              "0"
+            ]
+          ]
+        },
+        "f1": {
+          "negative": 4,
+          "positive": 2,
+          "polyline": [
+            [
+              "7",
+              "0"
+            ],
+            [
+              "6",
+              "-1"
+            ],
+            [
+              "5",
+              "0"
+            ]
+          ]
+        }
+      },
+      "cones": [
+        {
+          "order": 2,
+          "position": [
+            "1",
+            "-1/4"
+          ],
+          "region_signature": [
+            -1,
+            0
+          ]
+        },
+        {
+          "order": 3,
+          "position": [
+            "6",
+            "-1/4"
+          ],
+          "region_signature": [
+            0,
+            -1
+          ]
+        }
+      ],
+      "region_signatures": [
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "edge_sides": {
+        "e0": [
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "e1": [
+          [
+            0,
+            0
+          ],
+          [
+            -1,
+            0
+          ]
+        ],
+        "f0": [
+          [
+            0,
+            -1
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "f1": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            -1
+          ]
+        ]
+      },
+      "matching_list": [
+        [
+          "e0",
+          "f0"
+        ],
+        [
+          "e0",
+          "f1"
+        ],
+        [
+          "e1",
+          "f0"
+        ],
+        [
+          "e1",
+          "f1"
+        ]
+      ],
+      "whole_complement_width_matrix": [
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          2,
+          1
+        ],
+        [
+          1,
+          2,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ]
+      ],
+      "distance_two_midpoint_certificates": [
+        {
+          "input_pair": [
+            [
+              "e0",
+              "f1"
+            ],
+            [
+              "e1",
+              "f0"
+            ]
+          ],
+          "representative_width": 2,
+          "midpoint_decode": {
+            "reference": [
+              "e0",
+              "f0"
+            ],
+            "root": [
+              -1,
+              0
+            ],
+            "potential": [
+              [
+                [
+                  -1,
+                  0
+                ],
+                "0"
+              ],
+              [
+                [
+                  0,
+                  -1
+                ],
+                "0"
+              ],
+              [
+                [
+                  0,
+                  0
+                ],
+                "1/2"
+              ]
+            ],
+            "intervals": [
+              {
+                "start": "0",
+                "end": "1/2",
+                "matching": [
+                  "e0",
+                  "f0"
+                ]
+              },
+              {
+                "start": "1/2",
+                "end": "1",
+                "matching": [
+                  "e1",
+                  "f1"
+                ]
+              }
+            ],
+            "barycentric_output": [
+              {
+                "matching": [
+                  "e0",
+                  "f0"
+                ],
+                "weight": "1/2"
+              },
+              {
+                "matching": [
+                  "e1",
+                  "f1"
+                ],
+                "weight": "1/2"
+              }
+            ]
+          }
+        }
+      ],
+      "counts": {
+        "feasible_subgraphs": 9,
+        "ordered_pair_comparisons": 36,
+        "distinct_graph_flow_samples": 59,
+        "threshold_probes": 218,
+        "reference_comparisons": 176,
+        "root_comparisons": 145,
+        "zero_edge_rebuild_comparisons": 59,
+        "true_simplices": 27,
+        "exact_simplex_recoveries": 91,
+        "common_coordinate_face_comparisons": 28
+      }
+    },
+    {
+      "name": "new_four_boundary_connected",
+      "actual_boundaries": 4,
+      "vertices": {
+        "1": [
+          "-2",
+          "-2"
+        ],
+        "2": [
+          "2",
+          "2"
+        ],
+        "3": [
+          "2",
+          "-2"
+        ],
+        "4": [
+          "-2",
+          "2"
+        ]
+      },
+      "positive_vertices": [
+        1,
+        2
+      ],
+      "edges": {
+        "bottom0": {
+          "negative": 3,
+          "positive": 1,
+          "polyline": [
+            [
+              "2",
+              "-2"
+            ],
+            [
+              "-2",
+              "-2"
+            ]
+          ]
+        },
+        "bottom1": {
+          "negative": 3,
+          "positive": 1,
+          "polyline": [
+            [
+              "2",
+              "-2"
+            ],
+            [
+              "0",
+              "-3"
+            ],
+            [
+              "-2",
+              "-2"
+            ]
+          ]
+        },
+        "right": {
+          "negative": 3,
+          "positive": 2,
+          "polyline": [
+            [
+              "2",
+              "-2"
+            ],
+            [
+              "2",
+              "2"
+            ]
+          ]
+        },
+        "top0": {
+          "negative": 4,
+          "positive": 2,
+          "polyline": [
+            [
+              "-2",
+              "2"
+            ],
+            [
+              "2",
+              "2"
+            ]
+          ]
+        },
+        "top1": {
+          "negative": 4,
+          "positive": 2,
+          "polyline": [
+            [
+              "-2",
+              "2"
+            ],
+            [
+              "0",
+              "3"
+            ],
+            [
+              "2",
+              "2"
+            ]
+          ]
+        },
+        "left": {
+          "negative": 4,
+          "positive": 1,
+          "polyline": [
+            [
+              "-2",
+              "2"
+            ],
+            [
+              "-2",
+              "-2"
+            ]
+          ]
+        }
+      },
+      "cones": [
+        {
+          "order": 3,
+          "position": [
+            "0",
+            "-9/4"
+          ],
+          "region_signature": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "order": 2,
+          "position": [
+            "0",
+            "9/4"
+          ],
+          "region_signature": [
+            0,
+            0,
+            -1
+          ]
+        }
+      ],
+      "region_signatures": [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "edge_sides": {
+        "bottom0": [
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            -1
+          ]
+        ],
+        "bottom1": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            -1,
+            0,
+            0
+          ]
+        ],
+        "left": [
+          [
+            0,
+            -1,
+            -1
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "right": [
+          [
+            0,
+            -1,
+            -1
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "top0": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            0,
+            -1,
+            -1
+          ]
+        ],
+        "top1": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            -1
+          ]
+        ]
+      },
+      "matching_list": [
+        [
+          "bottom0",
+          "top0"
+        ],
+        [
+          "bottom0",
+          "top1"
+        ],
+        [
+          "bottom1",
+          "top0"
+        ],
+        [
+          "bottom1",
+          "top1"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "whole_complement_width_matrix": [
+        [
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          2,
+          1,
+          1
+        ],
+        [
+          1,
+          2,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          0
+        ]
+      ],
+      "distance_two_midpoint_certificates": [
+        {
+          "input_pair": [
+            [
+              "bottom0",
+              "top1"
+            ],
+            [
+              "bottom1",
+              "top0"
+            ]
+          ],
+          "representative_width": 2,
+          "midpoint_decode": {
+            "reference": [
+              "bottom0",
+              "top0"
+            ],
+            "root": [
+              -1,
+              0,
+              0
+            ],
+            "potential": [
+              [
+                [
+                  -1,
+                  0,
+                  0
+                ],
+                "0"
+              ],
+              [
+                [
+                  0,
+                  -1,
+                  -1
+                ],
+                "1/2"
+              ],
+              [
+                [
+                  0,
+                  0,
+                  -1
+                ],
+                "0"
+              ],
+              [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                "1/2"
+              ]
+            ],
+            "intervals": [
+              {
+                "start": "0",
+                "end": "1/2",
+                "matching": [
+                  "bottom0",
+                  "top0"
+                ]
+              },
+              {
+                "start": "1/2",
+                "end": "1",
+                "matching": [
+                  "bottom1",
+                  "top1"
+                ]
+              }
+            ],
+            "barycentric_output": [
+              {
+                "matching": [
+                  "bottom0",
+                  "top0"
+                ],
+                "weight": "1/2"
+              },
+              {
+                "matching": [
+                  "bottom1",
+                  "top1"
+                ],
+                "weight": "1/2"
+              }
+            ]
+          }
+        }
+      ],
+      "counts": {
+        "feasible_subgraphs": 43,
+        "ordered_pair_comparisons": 192,
+        "distinct_graph_flow_samples": 345,
+        "threshold_probes": 1338,
+        "reference_comparisons": 1124,
+        "root_comparisons": 968,
+        "zero_edge_rebuild_comparisons": 345,
+        "true_simplices": 151,
+        "exact_simplex_recoveries": 665,
+        "common_coordinate_face_comparisons": 280
+      }
+    },
+    {
+      "name": "new_six_boundary_chorded_hexagon",
+      "actual_boundaries": 6,
+      "vertices": {
+        "0": [
+          "0",
+          "0"
+        ],
+        "1": [
+          "2",
+          "0"
+        ],
+        "2": [
+          "3",
+          "2"
+        ],
+        "3": [
+          "2",
+          "4"
+        ],
+        "4": [
+          "0",
+          "4"
+        ],
+        "5": [
+          "-1",
+          "2"
+        ]
+      },
+      "positive_vertices": [
+        0,
+        2,
+        4
+      ],
+      "edges": {
+        "h01": {
+          "negative": 1,
+          "positive": 0,
+          "polyline": [
+            [
+              "2",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ]
+        },
+        "h12": {
+          "negative": 1,
+          "positive": 2,
+          "polyline": [
+            [
+              "2",
+              "0"
+            ],
+            [
+              "3",
+              "2"
+            ]
+          ]
+        },
+        "h23": {
+          "negative": 3,
+          "positive": 2,
+          "polyline": [
+            [
+              "2",
+              "4"
+            ],
+            [
+              "3",
+              "2"
+            ]
+          ]
+        },
+        "h34": {
+          "negative": 3,
+          "positive": 4,
+          "polyline": [
+            [
+              "2",
+              "4"
+            ],
+            [
+              "0",
+              "4"
+            ]
+          ]
+        },
+        "h45": {
+          "negative": 5,
+          "positive": 4,
+          "polyline": [
+            [
+              "-1",
+              "2"
+            ],
+            [
+              "0",
+              "4"
+            ]
+          ]
+        },
+        "h50": {
+          "negative": 5,
+          "positive": 0,
+          "polyline": [
+            [
+              "-1",
+              "2"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ]
+        },
+        "chord14": {
+          "negative": 1,
+          "positive": 4,
+          "polyline": [
+            [
+              "2",
+              "0"
+            ],
+            [
+              "0",
+              "4"
+            ]
+          ]
+        },
+        "low01": {
+          "negative": 1,
+          "positive": 0,
+          "polyline": [
+            [
+              "2",
+              "0"
+            ],
+            [
+              "1",
+              "-1"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ]
+        },
+        "high34": {
+          "negative": 3,
+          "positive": 4,
+          "polyline": [
+            [
+              "2",
+              "4"
+            ],
+            [
+              "1",
+              "5"
+            ],
+            [
+              "0",
+              "4"
+            ]
+          ]
+        }
+      },
+      "cones": [
+        {
+          "order": 2,
+          "position": [
+            "1",
+            "-1/4"
+          ],
+          "region_signature": [
+            0,
+            0,
+            0,
+            -1
+          ]
+        },
+        {
+          "order": 3,
+          "position": [
+            "1",
+            "17/4"
+          ],
+          "region_signature": [
+            0,
+            0,
+            1,
+            0
+          ]
+        }
+      ],
+      "region_signatures": [
+        [
+          0,
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ]
+      ],
+      "edge_sides": {
+        "chord14": [
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1,
+            0
+          ]
+        ],
+        "h01": [
+          [
+            0,
+            0,
+            0,
+            -1
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ]
+        ],
+        "h12": [
+          [
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "h23": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1,
+            0
+          ]
+        ],
+        "h34": [
+          [
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ]
+        ],
+        "h45": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ]
+        ],
+        "h50": [
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "high34": [
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "low01": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            -1
+          ]
+        ]
+      },
+      "matching_list": [
+        [
+          "chord14",
+          "h23",
+          "h50"
+        ],
+        [
+          "h01",
+          "h23",
+          "h45"
+        ],
+        [
+          "h12",
+          "h34",
+          "h50"
+        ],
+        [
+          "h12",
+          "h50",
+          "high34"
+        ],
+        [
+          "h23",
+          "h45",
+          "low01"
+        ]
+      ],
+      "whole_complement_width_matrix": [
+        [
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          0
+        ]
+      ],
+      "distance_two_midpoint_certificates": [],
+      "counts": {
+        "feasible_subgraphs": 199,
+        "ordered_pair_comparisons": 640,
+        "distinct_graph_flow_samples": 1114,
+        "threshold_probes": 4144,
+        "reference_comparisons": 3093,
+        "root_comparisons": 3291,
+        "zero_edge_rebuild_comparisons": 1114,
+        "true_simplices": 539,
+        "exact_simplex_recoveries": 2260,
+        "common_coordinate_face_comparisons": 1034
+      }
+    },
+    {
+      "name": "new_six_boundary_forced_bridge",
+      "actual_boundaries": 6,
+      "vertices": {
+        "0": [
+          "-5",
+          "0"
+        ],
+        "1": [
+          "5",
+          "0"
+        ],
+        "2": [
+          "-2",
+          "0"
+        ],
+        "3": [
+          "2",
+          "0"
+        ],
+        "4": [
+          "7",
+          "0"
+        ],
+        "5": [
+          "9",
+          "0"
+        ]
+      },
+      "positive_vertices": [
+        0,
+        2,
+        4
+      ],
+      "edges": {
+        "outer_up": {
+          "negative": 1,
+          "positive": 0,
+          "polyline": [
+            [
+              "5",
+              "0"
+            ],
+            [
+              "0",
+              "5"
+            ],
+            [
+              "-5",
+              "0"
+            ]
+          ]
+        },
+        "outer_down": {
+          "negative": 1,
+          "positive": 0,
+          "polyline": [
+            [
+              "5",
+              "0"
+            ],
+            [
+              "0",
+              "-5"
+            ],
+            [
+              "-5",
+              "0"
+            ]
+          ]
+        },
+        "inner_up": {
+          "negative": 3,
+          "positive": 2,
+          "polyline": [
+            [
+              "2",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "-2",
+              "0"
+            ]
+          ]
+        },
+        "inner_down": {
+          "negative": 3,
+          "positive": 2,
+          "polyline": [
+            [
+              "2",
+              "0"
+            ],
+            [
+              "0",
+              "-1"
+            ],
+            [
+              "-2",
+              "0"
+            ]
+          ]
+        },
+        "bridge": {
+          "negative": 5,
+          "positive": 4,
+          "polyline": [
+            [
+              "9",
+              "0"
+            ],
+            [
+              "7",
+              "0"
+            ]
+          ]
+        }
+      },
+      "cones": [
+        {
+          "order": 3,
+          "position": [
+            "0",
+            "2"
+          ],
+          "region_signature": [
+            0,
+            1
+          ]
+        },
+        {
+          "order": 2,
+          "position": [
+            "0",
+            "0"
+          ],
+          "region_signature": [
+            1,
+            1
+          ]
+        }
+      ],
+      "region_signatures": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "edge_sides": {
+        "bridge": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "inner_down": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "inner_up": [
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "outer_down": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "outer_up": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "matching_list": [
+        [
+          "bridge",
+          "inner_down",
+          "outer_down"
+        ],
+        [
+          "bridge",
+          "inner_down",
+          "outer_up"
+        ],
+        [
+          "bridge",
+          "inner_up",
+          "outer_down"
+        ],
+        [
+          "bridge",
+          "inner_up",
+          "outer_up"
+        ]
+      ],
+      "whole_complement_width_matrix": [
+        [
+          0,
+          1,
+          1,
+          2
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          2,
+          1,
+          1,
+          0
+        ]
+      ],
+      "distance_two_midpoint_certificates": [
+        {
+          "input_pair": [
+            [
+              "bridge",
+              "inner_down",
+              "outer_down"
+            ],
+            [
+              "bridge",
+              "inner_up",
+              "outer_up"
+            ]
+          ],
+          "representative_width": 2,
+          "midpoint_decode": {
+            "reference": [
+              "bridge",
+              "inner_down",
+              "outer_down"
+            ],
+            "root": [
+              0,
+              0
+            ],
+            "potential": [
+              [
+                [
+                  0,
+                  0
+                ],
+                "0"
+              ],
+              [
+                [
+                  0,
+                  1
+                ],
+                "1/2"
+              ],
+              [
+                [
+                  1,
+                  1
+                ],
+                "1"
+              ]
+            ],
+            "intervals": [
+              {
+                "start": "0",
+                "end": "1/2",
+                "matching": [
+                  "bridge",
+                  "inner_up",
+                  "outer_down"
+                ]
+              },
+              {
+                "start": "1/2",
+                "end": "1",
+                "matching": [
+                  "bridge",
+                  "inner_down",
+                  "outer_up"
+                ]
+              }
+            ],
+            "barycentric_output": [
+              {
+                "matching": [
+                  "bridge",
+                  "inner_down",
+                  "outer_up"
+                ],
+                "weight": "1/2"
+              },
+              {
+                "matching": [
+                  "bridge",
+                  "inner_up",
+                  "outer_down"
+                ],
+                "weight": "1/2"
+              }
+            ]
+          }
+        }
+      ],
+      "counts": {
+        "feasible_subgraphs": 9,
+        "ordered_pair_comparisons": 36,
+        "distinct_graph_flow_samples": 59,
+        "threshold_probes": 218,
+        "reference_comparisons": 176,
+        "root_comparisons": 145,
+        "zero_edge_rebuild_comparisons": 59,
+        "true_simplices": 27,
+        "exact_simplex_recoveries": 91,
+        "common_coordinate_face_comparisons": 28
+      }
+    }
+  ],
+  "constant_collar_collision_tests": {
+    "normalised_input_cone_constants": {
+      "M00": [
+        0,
+        0
+      ],
+      "M01": [
+        0,
+        -1
+      ],
+      "M10": [
+        -1,
+        0
+      ],
+      "M11": [
+        -1,
+        -1
+      ]
+    },
+    "convex_cone_constants": [
+      "x-1",
+      "y-1"
+    ],
+    "events": [
+      {
+        "cone_phase_collision": "0",
+        "limit_output": [
+          {
+            "matching": [
+              "e1",
+              "f1"
+            ],
+            "weight": "1"
+          }
+        ],
+        "nearby": [
+          {
+            "epsilon": "1/10",
+            "l1_change": "1/5"
+          },
+          {
+            "epsilon": "1/100",
+            "l1_change": "1/50"
+          },
+          {
+            "epsilon": "1/1000",
+            "l1_change": "1/500"
+          }
+        ]
+      },
+      {
+        "cone_phase_collision": "1/3",
+        "limit_output": [
+          {
+            "matching": [
+              "e0",
+              "f0"
+            ],
+            "weight": "1/3"
+          },
+          {
+            "matching": [
+              "e1",
+              "f1"
+            ],
+            "weight": "2/3"
+          }
+        ],
+        "nearby": [
+          {
+            "epsilon": "-1/10",
+            "l1_change": "1/5"
+          },
+          {
+            "epsilon": "1/10",
+            "l1_change": "1/5"
+          },
+          {
+            "epsilon": "-1/100",
+            "l1_change": "1/50"
+          },
+          {
+            "epsilon": "1/100",
+            "l1_change": "1/50"
+          },
+          {
+            "epsilon": "-1/1000",
+            "l1_change": "1/500"
+          },
+          {
+            "epsilon": "1/1000",
+            "l1_change": "1/500"
+          }
+        ]
+      },
+      {
+        "cone_phase_collision": "1/2",
+        "limit_output": [
+          {
+            "matching": [
+              "e0",
+              "f0"
+            ],
+            "weight": "1/2"
+          },
+          {
+            "matching": [
+              "e1",
+              "f1"
+            ],
+            "weight": "1/2"
+          }
+        ],
+        "nearby": [
+          {
+            "epsilon": "-1/10",
+            "l1_change": "1/5"
+          },
+          {
+            "epsilon": "1/10",
+            "l1_change": "1/5"
+          },
+          {
+            "epsilon": "-1/100",
+            "l1_change": "1/50"
+          },
+          {
+            "epsilon": "1/100",
+            "l1_change": "1/50"
+          },
+          {
+            "epsilon": "-1/1000",
+            "l1_change": "1/500"
+          },
+          {
+            "epsilon": "1/1000",
+            "l1_change": "1/500"
+          }
+        ]
+      },
+      {
+        "cone_phase_collision": "1",
+        "limit_output": [
+          {
+            "matching": [
+              "e0",
+              "f0"
+            ],
+            "weight": "1"
+          }
+        ],
+        "nearby": [
+          {
+            "epsilon": "-1/10",
+            "l1_change": "1/5"
+          },
+          {
+            "epsilon": "-1/100",
+            "l1_change": "1/50"
+          },
+          {
+            "epsilon": "-1/1000",
+            "l1_change": "1/500"
+          }
+        ]
+      }
+    ],
+    "scope": "Embedded-band subfamily only; not a general PL-family implementation."
+  },
+  "source_sha256": {
+    "proof/class-distance.md": "7786c09aa26cffc8ab12099fe78b9e952537aed13721adda19e425c901adb2cc",
+    "proof/classification.md": "952fe68b46b73c2a195b9f3154bc81c628d3dbad5aa78c1438d5320af92ba10d",
+    "proof/contractibility.md": "69b9ee62a2bfa5c620ec24cfb26012ec305f28c4d887bc6c0c4ced581df165b4",
+    "proof/double-cone-example.md": "6ca383749da5818cd2d6e7528ef2e1f111a83c97c78b28fc1fad152bdce2bd83",
+    "proof/matching-carrier.md": "7261527f4b706b431f243ac7d378ee550b3f312b3cea4a10b0b5aaf0d2d225f9",
+    "proof/objects.md": "96ca1ffe41b4a3f9391567d9674858adede4757b6782f613fb41c37e6277cede",
+    "proof/scope.md": "0864832964317f7dc9f1bd26b072abfb20468bd9431d1d2dab0e559f0e4f37a1",
+    "proof/two-boundaries.md": "fc075657bdfeea444f3019378c8975f2687cb5d28d20be2e6eec354e927afd83",
+    "proof/vertex-bijection.md": "a9c2ed3586ffd6fad80f9e085fd7b72ea9443b08668e412c81afdeddad236388"
+  },
+  "limitations": [
+    "No independent algorithm for arbitrary 3-dimensional isotopy or the PS class minimum.",
+    "No inference of a uniform theorem from the tested graphs or cone orders.",
+    "The arbitrary intersecting-band PL normaliser is not implemented.",
+    "The collision test uses an explicit embedded-band subfamily with no discarded circles.",
+    "Region and width algorithms share the input drawing, whose segment embedding is checked exactly."
+  ],
+  "script_sha256": "de1f4978acbfbc8e4bf9867226600fd5517ba555151c1b8a600474155c12f768"
+}

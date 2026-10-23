@@ -1,0 +1,363 @@
+{
+  "status": "bounded independent diagnostics passed",
+  "script_sha256": "6c0d07ec6c05612014b0fcab0d7cb11a44716858bbd59a7fbb7f5a87af797cdc",
+  "source_sha256": {
+    "proof/objects.md": "96ca1ffe41b4a3f9391567d9674858adede4757b6782f613fb41c37e6277cede",
+    "proof/classification.md": "952fe68b46b73c2a195b9f3154bc81c628d3dbad5aa78c1438d5320af92ba10d",
+    "proof/two-boundaries.md": "fc075657bdfeea444f3019378c8975f2687cb5d28d20be2e6eec354e927afd83",
+    "proof/vertex-bijection.md": "a9c2ed3586ffd6fad80f9e085fd7b72ea9443b08668e412c81afdeddad236388",
+    "proof/class-distance.md": "7786c09aa26cffc8ab12099fe78b9e952537aed13721adda19e425c901adb2cc"
+  },
+  "braid_arc_orbit": {
+    "depth": 6,
+    "embedded_arc_classes": 729,
+    "maximum_free_word_length": 478,
+    "profiles": [
+      {
+        "orders": [
+          2,
+          3
+        ],
+        "in_S3_family": true,
+        "distinct_orbifold_conjugacy_classes": 729,
+        "minimum_cyclic_syllable_length": 2
+      },
+      {
+        "orders": [
+          2,
+          5
+        ],
+        "in_S3_family": true,
+        "distinct_orbifold_conjugacy_classes": 729,
+        "minimum_cyclic_syllable_length": 2
+      },
+      {
+        "orders": [
+          2,
+          7
+        ],
+        "in_S3_family": true,
+        "distinct_orbifold_conjugacy_classes": 729,
+        "minimum_cyclic_syllable_length": 2
+      },
+      {
+        "orders": [
+          3,
+          4
+        ],
+        "in_S3_family": true,
+        "distinct_orbifold_conjugacy_classes": 729,
+        "minimum_cyclic_syllable_length": 2
+      },
+      {
+        "orders": [
+          3,
+          5
+        ],
+        "in_S3_family": true,
+        "distinct_orbifold_conjugacy_classes": 729,
+        "minimum_cyclic_syllable_length": 2
+      },
+      {
+        "orders": [
+          4,
+          5
+        ],
+        "in_S3_family": true,
+        "distinct_orbifold_conjugacy_classes": 729,
+        "minimum_cyclic_syllable_length": 2
+      },
+      {
+        "orders": [
+          5,
+          7
+        ],
+        "in_S3_family": true,
+        "distinct_orbifold_conjugacy_classes": 729,
+        "minimum_cyclic_syllable_length": 2
+      },
+      {
+        "orders": [
+          2,
+          2
+        ],
+        "in_S3_family": false,
+        "distinct_orbifold_conjugacy_classes": 729,
+        "minimum_cyclic_syllable_length": 2
+      }
+    ],
+    "arbitrary_word_negative_control": true,
+    "scope": "pure braid squares on cone/cone/actual holes; endpoint-free arcs"
+  },
+  "jordan": {
+    "partitions": 8500,
+    "peripheral_tests": 62600,
+    "normal_form": "Z^(n-1) plus direct sum C_q; eliminate d_n"
+  },
+  "closed_double_profiles": [
+    {
+      "actual_boundaries": 2,
+      "orders": [
+        2
+      ],
+      "degree": 2,
+      "surface_genus": 2
+    },
+    {
+      "actual_boundaries": 2,
+      "orders": [
+        3
+      ],
+      "degree": 3,
+      "surface_genus": 3
+    },
+    {
+      "actual_boundaries": 2,
+      "orders": [
+        7
+      ],
+      "degree": 7,
+      "surface_genus": 7
+    },
+    {
+      "actual_boundaries": 2,
+      "orders": [
+        2,
+        3
+      ],
+      "degree": 6,
+      "surface_genus": 8
+    },
+    {
+      "actual_boundaries": 2,
+      "orders": [
+        2,
+        5
+      ],
+      "degree": 10,
+      "surface_genus": 14
+    },
+    {
+      "actual_boundaries": 2,
+      "orders": [
+        3,
+        4
+      ],
+      "degree": 12,
+      "surface_genus": 18
+    },
+    {
+      "actual_boundaries": 2,
+      "orders": [
+        5,
+        7
+      ],
+      "degree": 35,
+      "surface_genus": 59
+    },
+    {
+      "actual_boundaries": 4,
+      "orders": [],
+      "degree": 1,
+      "surface_genus": 3
+    },
+    {
+      "actual_boundaries": 4,
+      "orders": [
+        2
+      ],
+      "degree": 2,
+      "surface_genus": 6
+    },
+    {
+      "actual_boundaries": 4,
+      "orders": [
+        3
+      ],
+      "degree": 3,
+      "surface_genus": 9
+    },
+    {
+      "actual_boundaries": 4,
+      "orders": [
+        7
+      ],
+      "degree": 7,
+      "surface_genus": 21
+    },
+    {
+      "actual_boundaries": 4,
+      "orders": [
+        2,
+        3
+      ],
+      "degree": 6,
+      "surface_genus": 20
+    },
+    {
+      "actual_boundaries": 4,
+      "orders": [
+        2,
+        5
+      ],
+      "degree": 10,
+      "surface_genus": 34
+    },
+    {
+      "actual_boundaries": 4,
+      "orders": [
+        3,
+        4
+      ],
+      "degree": 12,
+      "surface_genus": 42
+    },
+    {
+      "actual_boundaries": 4,
+      "orders": [
+        5,
+        7
+      ],
+      "degree": 35,
+      "surface_genus": 129
+    },
+    {
+      "actual_boundaries": 6,
+      "orders": [],
+      "degree": 1,
+      "surface_genus": 5
+    },
+    {
+      "actual_boundaries": 6,
+      "orders": [
+        2
+      ],
+      "degree": 2,
+      "surface_genus": 10
+    },
+    {
+      "actual_boundaries": 6,
+      "orders": [
+        3
+      ],
+      "degree": 3,
+      "surface_genus": 15
+    },
+    {
+      "actual_boundaries": 6,
+      "orders": [
+        7
+      ],
+      "degree": 7,
+      "surface_genus": 35
+    },
+    {
+      "actual_boundaries": 6,
+      "orders": [
+        2,
+        3
+      ],
+      "degree": 6,
+      "surface_genus": 32
+    },
+    {
+      "actual_boundaries": 6,
+      "orders": [
+        2,
+        5
+      ],
+      "degree": 10,
+      "surface_genus": 54
+    },
+    {
+      "actual_boundaries": 6,
+      "orders": [
+        3,
+        4
+      ],
+      "degree": 12,
+      "surface_genus": 66
+    },
+    {
+      "actual_boundaries": 6,
+      "orders": [
+        5,
+        7
+      ],
+      "degree": 35,
+      "surface_genus": 199
+    },
+    {
+      "actual_boundaries": 8,
+      "orders": [],
+      "degree": 1,
+      "surface_genus": 7
+    },
+    {
+      "actual_boundaries": 8,
+      "orders": [
+        2
+      ],
+      "degree": 2,
+      "surface_genus": 14
+    },
+    {
+      "actual_boundaries": 8,
+      "orders": [
+        3
+      ],
+      "degree": 3,
+      "surface_genus": 21
+    },
+    {
+      "actual_boundaries": 8,
+      "orders": [
+        7
+      ],
+      "degree": 7,
+      "surface_genus": 49
+    },
+    {
+      "actual_boundaries": 8,
+      "orders": [
+        2,
+        3
+      ],
+      "degree": 6,
+      "surface_genus": 44
+    },
+    {
+      "actual_boundaries": 8,
+      "orders": [
+        2,
+        5
+      ],
+      "degree": 10,
+      "surface_genus": 74
+    },
+    {
+      "actual_boundaries": 8,
+      "orders": [
+        3,
+        4
+      ],
+      "degree": 12,
+      "surface_genus": 90
+    },
+    {
+      "actual_boundaries": 8,
+      "orders": [
+        5,
+        7
+      ],
+      "degree": 35,
+      "surface_genus": 269
+    }
+  ],
+  "limitations": [
+    "Does not prove class minimum over arbitrary ambient isotopies.",
+    "Does not prove Schultens Proposition 25 or PS Proposition 3.2.",
+    "No finite enumeration proves exhaustive Seifert classification.",
+    "No author checker was executed or imported."
+  ]
+}

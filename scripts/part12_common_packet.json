@@ -1,0 +1,35 @@
+{
+  "actual_pants_ports": [
+    2,
+    3,
+    4
+  ],
+  "input_families": 619,
+  "largest_chamber_closure": 5,
+  "mixed_sign_inputs": 364,
+  "not_certified": [
+    "ordinary quotient",
+    "three-dimensional products",
+    "coloured prism compatibility"
+  ],
+  "packet_count_max": 10,
+  "reachable_states": 2694,
+  "sampled_four_actual_hole_checks": {
+    "actual_holes_per_pattern": 4,
+    "boundary_counts_per_port": [
+      2,
+      4
+    ],
+    "bounded_local_pools": 62,
+    "local_diagram_options": 2729,
+    "mixed_sign_inputs": 2240,
+    "packet_count_max": 5,
+    "reachable_states": 9224,
+    "reduced_sampled_inputs": 2722,
+    "sample_seed": 60662026,
+    "seeded_closures": 5444,
+    "zero_tether_port_occurrences": 537
+  },
+  "seeded_closures": 1238,
+  "status": "PASS: finite path diagrams only"
+}

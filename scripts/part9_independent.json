@@ -1,0 +1,48 @@
+{
+  "affine_prisms": {
+    "exact_face_map_comparisons": 16720,
+    "rational_barycentric_probes": 29076,
+    "slabs": 7269
+  },
+  "closures": {
+    "accepted": 2342,
+    "candidates": 24000,
+    "max_actual_boundaries": 12,
+    "mixed_packets": 778,
+    "seed": 20261024,
+    "seeded_closures": 4684,
+    "states": 4850,
+    "two_tether_inputs": 778
+  },
+  "coloured_orders": {
+    "admissible_wall_chain_cases": 112,
+    "nonempty_wall_face_restrictions": 3351,
+    "nonuniform_weight_tests": 336
+  },
+  "filtered": {
+    "deformation_and_sublevel_probes": 15000,
+    "edges_with_necessary_high_vertex_removal": 19,
+    "rational_weighted_wall_models": 2500
+  },
+  "gap_orbits": {
+    "max_N": 128,
+    "parameter_tuples": 7000,
+    "terminal_leaf_counts": "2..7"
+  },
+  "not_certified": [
+    "ordinary isotopy / port loop quotients",
+    "incompressibility and 3D product regions",
+    "realizability of abstract diagrams as S3 link surfaces",
+    "global CW continuity / contractibility"
+  ],
+  "numerical": {
+    "coherent_connected_families": 128,
+    "genus_seven_raw_failures": 4
+  },
+  "retained_events": {
+    "empty_end_events": 46796,
+    "face_schedule_events": 217456,
+    "random_retained_subpacket_models": 4000
+  },
+  "status": "PASS: independent finite diagnostics only"
+}

@@ -1,0 +1,16 @@
+{
+  "largest_N": 20,
+  "not_certified": [
+    "horizontal bundle models",
+    "three-dimensional product regions",
+    "ordinary loop normaliser",
+    "contractibility"
+  ],
+  "parameter_tuples": 28743,
+  "status": "PASS — finite orbit incidences only",
+  "terminal_leaf_counts": [
+    2,
+    3,
+    4
+  ]
+}

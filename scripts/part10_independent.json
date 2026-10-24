@@ -1,0 +1,25 @@
+{
+  "output_lines": [
+    "PASS: independent exact finite diagnostics; topology is assessed in the report.",
+    "annularisation_and_multicomponent_assemblies: 96",
+    "arbitrary_integer_tree_matrices: 14105",
+    "arbitrary_tree_cofactors: 1969",
+    "arbitrary_trees_with_horizontal_line: 537",
+    "cable_finite_covectors: 1680",
+    "cable_meridional_negative_controls: 112",
+    "cabled_hopf_three_subtree_certificates: 472",
+    "composing_cap_framing_lists: 9330",
+    "composing_finite_covectors: 11172",
+    "connected_two_boundary_witnesses: 19690",
+    "degree_2_genuine_simplices: 11",
+    "degree_3_genuine_simplices: 51",
+    "degree_4_genuine_simplices: 299",
+    "horizontal_excess_identities: 5148",
+    "nonunit_candidate_subsets: 65805",
+    "nonunit_contraction_checks: 5415",
+    "nonunit_start_and_root_checks: 5196",
+    "product_probability_segments: 42",
+    "regular_fibre_support_determinants: 54",
+    "resonant_star_orientable_assemblies: 192"
+  ]
+}

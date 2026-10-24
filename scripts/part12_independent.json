@@ -1,0 +1,15 @@
+{
+  "output_lines": [
+    "{\"pants_degree\": {\"axis_conditions\": 1309644, \"admissible_unit_axes\": 1538, \"max_sheets\": 14, \"max_degree\": 6}}",
+    "{\"two_feature_caps\": {\"all_noncrossing_matchings\": 6917, \"two_feature_parallel_matchings\": 45, \"three_feature_nonparallel_matchings\": 420, \"max_endpoints\": 18}}",
+    "{\"weighted_packets\": {\"configurations\": 5000, \"terminal_end_incidences\": 39984, \"even_degree_same_end_checks\": 10059}}",
+    "{\"peripheral_equations\": {\"reduced_return_words\": 288, \"equations\": 48075, \"excluded_two_involution_negative_control\": true}}",
+    "{\"framing_lattices\": {\"framing_lists\": 22608, \"integral_inner_slope\": 6122, \"nonintegral_inner_slope\": 15882, \"reciprocal_zero\": 604, \"meridional_primitive_lattices\": 6040}}",
+    "{\"multiport_closures\": {\"pattern_trials\": 41132, \"reduced_inputs\": 1356, \"mixed_word_inputs\": 665, \"zero_tether_port_occurrences\": 882, \"degree_six_boundary_occurrences\": 739, \"eight_actual_hole_occurrences\": 2089, \"closure_states\": 3407, \"seeded_closures\": 2712}}",
+    "{\"examples\": {\"cable_24\": {\"blocks\": 3, \"chi_R\": -11, \"genus_R\": 5, \"chi_surface\": -22, \"genus_surface\": 11, \"intersections\": [22, 11]}, \"two_trefoil_supports_12\": {\"blocks\": 4, \"chi_R\": -12, \"genus_R\": 5, \"first_genus\": 11, \"intersections\": [12, 12, 6]}, \"weights_1_2_cable\": {\"blocks\": 5, \"frames\": [6, 3], \"external_degrees\": [1, 2], \"cap_degrees\": [3], \"chi_R\": -6, \"genus_R\": 1, \"genus_surface\": 4}, \"sum_six_component_modes\": [{\"vertical\": [0], \"chi_R\": -30, \"genus_R\": 13, \"cap_degrees\": [3], \"genus_surface\": 28}, {\"vertical\": [1], \"chi_R\": -30, \"genus_R\": 13, \"cap_degrees\": [3], \"genus_surface\": 28}, {\"vertical\": [0, 1, 2], \"chi_R\": -24, \"genus_R\": 7, \"cap_degrees\": [3, 3, 3], \"genus_surface\": 22}], \"hopf_eight_higher_degree\": {\"blocks\": 4, \"degrees\": [1, 1, 2], \"chi_R\": -4, \"genus_R\": 1, \"surface_components\": 2, \"genus_each\": 1, \"actual_boundaries_each\": 4, \"intersections\": [4, 4, 2]}, \"hopf_eight_joined_parities\": {\"blocks\": 4, \"sheets\": 6, \"chi\": -18, \"actual_boundaries\": 8, \"genus\": 6, \"intersections\": [3, 3, 3]}}}",
+    "{\"proposition_H_catalogue\": {\"signed_diagrams\": 574, \"reduced_diagrams\": 338, \"repeated_axis_reduced\": 226, \"closed_component_rejections\": 236}}",
+    "{\"proposition_M\": {\"genuine_blocks\": 7, \"support_surfaces\": [{\"sheets\": [0, 5], \"chi\": -4, \"external_boundaries\": 4, \"genus\": 1}, {\"sheets\": [1, 2, 3, 4], \"chi\": -8, \"external_boundaries\": 8, \"genus\": 1}], \"support_gap_regions\": [[0, 2, 4], [1, 3], [5]], \"whole_chi\": -12, \"whole_genus\": 5, \"raw_chi\": -8, \"raw_genus\": 3, \"safe_end_genus\": 1, \"interface_intersections\": [2, 2, 1, 1, 1, 1]}}",
+    "{\"trajectory_prisms\": {\"empty_end_events\": 3235, \"nonempty_face_checks\": 4260, \"rational_prism_probes\": 34080, \"families\": 300}}",
+    "{\"status\": \"PASS\"}"
+  ]
+}

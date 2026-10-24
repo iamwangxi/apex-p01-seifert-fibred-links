@@ -1,0 +1,316 @@
+{
+  "actual_examples": {
+    "active_free_return": {
+      "actual_boundaries": 4,
+      "actual_components": 4,
+      "central_q": [
+        1,
+        1,
+        2
+      ],
+      "chi": -24,
+      "companion_vertical_annuli": 2,
+      "conclusion": "X=Y contractible by Theorem K and Proposition H",
+      "connected_vertex_genus": 11,
+      "genus_R": 5,
+      "knot": "T(2,3)",
+      "pair_framings": [
+        12,
+        12
+      ],
+      "support": "two zero-framed parallels"
+    },
+    "higher_port": {
+      "actual_boundaries_each": 4,
+      "actual_components": 8,
+      "actual_pair_counts": [
+        1,
+        1,
+        2
+      ],
+      "chi_R": -4,
+      "framings": [
+        -3,
+        -3,
+        -1
+      ],
+      "genera": [
+        1,
+        1
+      ],
+      "genus_R": 1,
+      "q": [
+        1,
+        1,
+        2
+      ],
+      "vertex_components": 2
+    },
+    "many_actual": {
+      "actual_components": 8,
+      "actual_pair_counts": [
+        1,
+        1,
+        2
+      ],
+      "central_sheets": 6,
+      "chi": -18,
+      "connected": true,
+      "framings": [
+        -2,
+        -2,
+        -2
+      ],
+      "genus": 6,
+      "q": [
+        1,
+        1,
+        1
+      ]
+    },
+    "oriented_pants_exclusion": {
+      "actual_components": 6,
+      "conclusion": "point",
+      "framings": [
+        -3,
+        -3,
+        -1
+      ],
+      "kernel": [
+        1,
+        1,
+        2
+      ],
+      "q": [
+        1,
+        1,
+        2
+      ]
+    },
+    "solved_cable_degree_two": {
+      "actual_components": 2,
+      "chi_F": -22,
+      "chi_R": -11,
+      "conclusion": "contractible by Theorem G",
+      "framing": 24,
+      "frontier_degree": 2,
+      "genus_F": 11,
+      "genus_R": 5,
+      "knot": "C(2,1;T(2,3))"
+    }
+  },
+  "arbitrary_signed_framings": {
+    "child_modes": 2490,
+    "framing_lists": 11100,
+    "integral_inner_slope": 3756,
+    "meridional_cable_checks": 2676,
+    "nonintegral_inner_slope": 6898,
+    "nonzero_reciprocal": 10654,
+    "planar_support_modes": 26,
+    "zero_reciprocal": 446
+  },
+  "distributed_free_return": {
+    "every_reduced_surface_connected": true,
+    "excluded_closed_component_choices": 22,
+    "reduced_choices": 61,
+    "repeated_axis_reduced_choices": 31,
+    "rmax": 8,
+    "signed_axis_return_choices": 83
+  },
+  "framed_modes": {
+    "Euler_mode_checks": 23616,
+    "examples": [
+      {
+        "framing": 6,
+        "modes": [
+          {
+            "V": [
+              0
+            ],
+            "genus_F_k1": 4,
+            "genus_H": 2,
+            "v": 1
+          },
+          {
+            "V": [
+              1
+            ],
+            "genus_F_k1": 4,
+            "genus_H": 2,
+            "v": 1
+          },
+          {
+            "V": [
+              0,
+              1,
+              2
+            ],
+            "genus_F_k1": 2,
+            "genus_H": 0,
+            "v": 3
+          }
+        ],
+        "weights": [
+          6,
+          6,
+          -6
+        ]
+      }
+    ],
+    "singleton_mode_checks": 1638,
+    "weight_signatures": 360
+  },
+  "packets": {
+    "Nmax": 64,
+    "configurations": 2880,
+    "singleton_terminal_configurations": 480,
+    "terminal_range": [
+      1,
+      6
+    ]
+  },
+  "pants": {
+    "expanded_axis_tests": 214740,
+    "forbidden_periodic_words": 5096,
+    "qmax": 5,
+    "rmax": 6,
+    "surviving_axes": 642
+  },
+  "peripheral": {
+    "all_nonzero_return_windings_excluded": true,
+    "cable_and_composing_equations": 1521,
+    "excluded_zero_Euler_orbifold_has_nonzero_solution": true,
+    "exponent_bound": 6,
+    "free_product_equations": 14196,
+    "torus_cap_equations": 12675
+  },
+  "recursive_modes": {
+    "higher_degree_horizontal_modes": 476,
+    "largest_frontier_degree": 6,
+    "mode_markings": 892,
+    "multimode_cable_example": [
+      {
+        "b": [
+          2
+        ],
+        "chi": -19,
+        "slope": 24,
+        "vertical": false
+      },
+      {
+        "b": [
+          2
+        ],
+        "chi": -19,
+        "slope": 24,
+        "vertical": false
+      },
+      {
+        "b": [
+          2,
+          2,
+          2
+        ],
+        "chi": -15,
+        "slope": 24,
+        "vertical": false
+      }
+    ],
+    "recursive_constructions": 140,
+    "two_actual_cable_example": {
+      "b": [
+        2
+      ],
+      "chi": -11,
+      "slope": 24,
+      "vertical": false
+    },
+    "vertical_roots": 104
+  },
+  "weighted_packets": {
+    "Nmax": 48,
+    "configurations": 2400,
+    "degrees": [
+      1,
+      8
+    ],
+    "even_degree_same_end_cases": 3653,
+    "interior_dual_regions_are_linear": true,
+    "local_end_checks": 14400,
+    "terminal_range": [
+      1,
+      5
+    ]
+  },
+  "weighted_supports": {
+    "active_actual_degree_two_example": {
+      "actual_counts": [
+        2,
+        4
+      ],
+      "cap_degrees": [
+        3
+      ],
+      "chi_F": -12,
+      "chi_R": -6,
+      "child": "C(2,1;T(2,3))",
+      "external_degrees": [
+        1,
+        2
+      ],
+      "frames": [
+        6,
+        3
+      ],
+      "genus_F": 4,
+      "t": 2,
+      "weights": [
+        1,
+        2
+      ]
+    },
+    "child_mode_extensions": 1472,
+    "distributed_four_branch_example": {
+      "actual_counts": [
+        2,
+        4
+      ],
+      "cap_degrees": [
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ]
+      ],
+      "chi_R": [
+        -30,
+        -30,
+        -24
+      ],
+      "child": "T(2,3)#T(2,3)#T(2,-3)",
+      "frames": [
+        18,
+        9
+      ],
+      "genera_F": [
+        28,
+        28,
+        22
+      ],
+      "t": 6,
+      "weights": [
+        1,
+        2
+      ]
+    },
+    "framing_choices": 2904,
+    "higher_actual_degree_extensions": 1448,
+    "primitive_weight_lists": 305
+  }
+}

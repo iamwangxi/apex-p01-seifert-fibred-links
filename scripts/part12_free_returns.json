@@ -1,0 +1,217 @@
+{
+  "corollary_L": {
+    "degree_max": 64,
+    "degree_one_companion": {
+      "boundaries": 4,
+      "chi": -2,
+      "genus": 0
+    },
+    "whole_Euler_checks": 1024
+  },
+  "finite_search": [
+    {
+      "axis_matching_choices": 2,
+      "reduced_choices": 2,
+      "sheets": 2,
+      "unequal_support_boundary_counts": 0
+    },
+    {
+      "axis_matching_choices": 16,
+      "reduced_choices": 16,
+      "sheets": 4,
+      "unequal_support_boundary_counts": 0
+    },
+    {
+      "axis_matching_choices": 48,
+      "reduced_choices": 36,
+      "sheets": 6,
+      "unequal_support_boundary_counts": 12
+    }
+  ],
+  "proposition_M": {
+    "JSJ_blocks": 7,
+    "actual_components": 4,
+    "actual_returns_at_each_port": [
+      [
+        0,
+        2
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "actual_tethers_at_each_port": [
+      1,
+      4
+    ],
+    "auxiliary_class": {
+      "lambda_K": 2,
+      "mu_1": 1,
+      "mu_2": -1,
+      "mu_K": 0
+    },
+    "cap_matching": [
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        6,
+        11
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        8,
+        9
+      ]
+    ],
+    "central_sheets": 6,
+    "interface_fibre_intersections": [
+      2,
+      2,
+      1,
+      1,
+      1,
+      1
+    ],
+    "knot": "T(2,3)#T(2,5)#T(3,4)",
+    "mixed_region_faces": {
+      "A": "positive",
+      "B": "negative"
+    },
+    "not_claimed": [
+      "noncontractibility",
+      "complete ordinary catalogue",
+      "homology of the full complex"
+    ],
+    "pants_axes": [
+      1,
+      1
+    ],
+    "pattern_framings": [
+      -2,
+      2
+    ],
+    "raw_end_resolution": {
+      "actual_component_compressible_by_proof": true,
+      "bad_return_at_each_port": [
+        2,
+        3
+      ],
+      "cap_at_each_port": [
+        5,
+        0
+      ],
+      "chi": -8,
+      "genus": 3,
+      "removed_support_piece": "A",
+      "retained_tethers_at_each_port": [
+        1,
+        4
+      ]
+    },
+    "safe_opposite_end": {
+      "caps_at_each_port": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "cyclic_neighbour_by_component_wall_proof": true,
+      "genus": 1,
+      "removed_support_piece": "B",
+      "retained_support_piece": "A",
+      "tether_paths": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          4,
+          3,
+          5
+        ]
+      ]
+    },
+    "signs": [
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      -1
+    ],
+    "special_distance": {
+      "half_central_sheet_count": 3,
+      "not_an_all_pair_formula": true,
+      "proof": "safe cyclic path plus forced pants crossing",
+      "to_two_annulus_vertex": 2
+    },
+    "support": "two zero-framed parallels",
+    "support_components_not_parallel_by_boundary_count": true,
+    "support_cut_components": [
+      {
+        "boundaries": 4,
+        "boundaries_at_each_port": 2,
+        "chi": -4,
+        "genus": 1,
+        "sheets": [
+          0,
+          5
+        ]
+      },
+      {
+        "boundaries": 8,
+        "boundaries_at_each_port": 4,
+        "chi": -8,
+        "genus": 1,
+        "sheets": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    ],
+    "support_gap_regions": [
+      [
+        0,
+        2,
+        4
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        5
+      ]
+    ],
+    "unused_child_hole_marks": [
+      1.5,
+      3.5,
+      8.5
+    ],
+    "whole_chi": -12,
+    "whole_genus": 5,
+    "whole_surface_connected": true
+  },
+  "status": "PASS: finite planar and Euler data"
+}

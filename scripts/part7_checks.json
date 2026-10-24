@@ -1,0 +1,21 @@
+{
+  "output_lines": [
+    "PASS: exact finite diagnostics; topological conclusions require the proof.",
+    "anchored_internal_example_blocks: 6",
+    "anchored_internal_example_actual_components: 8",
+    "anchored_internal_example_norm_genus: [24, 9]",
+    "anchored_internal_example_local_horizontal_pieces: 2",
+    "nonunit_interval_rational_points: 2144",
+    "nonunit_interval_simplex_recoveries: 1296",
+    "single_cable_exact_parameter_cases: 1760",
+    "named_cable_examples: {'K_A': {'genus': 2, 'leaf_trace': 4, 'X_Y_vertices': 2}, 'K_B': {'genus': 7, 'leaf_trace': 6, 'X_Y_vertices': 2}, 'depth_three': {'genus': 20, 'deep_leaf_trace': 24}}",
+    "two_parallel_regression: {'vertices': 2, 'edge': 1, 'trefoil_excess': 2}",
+    "square_knot_all_genus_ribbon_cases: 256",
+    "square_knot_oriented_internal_annulus_checks: 98432",
+    "square_knot_max_genus_and_jointly_efficient_trace_per_torus: [256, 512]",
+    "unanchored_nonzero_control: {'companion_fibre_evaluation': 6, 'net_divisibility': 1, 'minimum_trace_and_complexity': [1, 3], 'ordinary_component_counts': [2, 3]}",
+    "component_wall_barycentric_points: 969",
+    "component_wall_global_root_checks: 2907",
+    "component_wall_strong_deformation_checks: 4845"
+  ]
+}

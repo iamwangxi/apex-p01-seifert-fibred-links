@@ -1,0 +1,86 @@
+{
+  "coherent_family": {
+    "exact_resolution_steps": 820,
+    "families": 40
+  },
+  "connected_genus_seven_obstruction": {
+    "original_height_range": 2,
+    "raw_moves": [
+      {
+        "closed_annular_cycles": 0,
+        "copies": [
+          2,
+          3
+        ],
+        "operation": "first end",
+        "surviving_empty_return": [
+          10,
+          11
+        ]
+      },
+      {
+        "closed_annular_cycles": 0,
+        "copies": [
+          2,
+          1
+        ],
+        "operation": "last end",
+        "surviving_empty_return": [
+          13,
+          14
+        ]
+      },
+      {
+        "closed_annular_cycles": 0,
+        "copies": [
+          3,
+          3
+        ],
+        "operation": "pair (1,2)",
+        "surviving_empty_return": [
+          3,
+          4
+        ]
+      },
+      {
+        "closed_annular_cycles": 1,
+        "copies": [
+          0,
+          0
+        ],
+        "operation": "pair (2,3)",
+        "surviving_empty_return": [
+          7,
+          8
+        ]
+      }
+    ],
+    "same_side_repairs": [
+      {
+        "actual_tethers": 4,
+        "closed_annular_cycles": 2,
+        "companion_count": 1,
+        "genus": 1,
+        "operation": "first-end closure",
+        "surviving_copy": 1
+      },
+      {
+        "actual_tethers": 4,
+        "closed_annular_cycles": 1,
+        "companion_count": 1,
+        "genus": 1,
+        "operation": "last-end closure",
+        "surviving_copy": 0
+      }
+    ]
+  },
+  "reflection_parameter_pairs": 11440,
+  "signed_reference_packets": 1008,
+  "status": "PASS — finite combinatorial assertions only",
+  "topology_not_certified": [
+    "ordinary isotopy and zero-loop quotient",
+    "minimum cyclic width",
+    "compression existence or compatibility",
+    "relative annular carrier and contractibility"
+  ]
+}

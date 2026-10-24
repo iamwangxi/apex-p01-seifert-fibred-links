@@ -1,0 +1,119 @@
+{
+  "configurations": [
+    {
+      "input_diagrams": 2,
+      "k": 1,
+      "q": 1
+    },
+    {
+      "input_diagrams": 12,
+      "k": 1,
+      "q": 2
+    },
+    {
+      "input_diagrams": 40,
+      "k": 1,
+      "q": 3
+    },
+    {
+      "input_diagrams": 126,
+      "k": 1,
+      "q": 4
+    },
+    {
+      "input_diagrams": 300,
+      "k": 1,
+      "q": 5
+    },
+    {
+      "input_diagrams": 642,
+      "k": 1,
+      "q": 6
+    },
+    {
+      "input_diagrams": 1280,
+      "k": 1,
+      "q": 7
+    },
+    {
+      "input_diagrams": 5,
+      "k": 2,
+      "q": 1
+    },
+    {
+      "input_diagrams": 38,
+      "k": 2,
+      "q": 2
+    },
+    {
+      "input_diagrams": 138,
+      "k": 2,
+      "q": 3
+    },
+    {
+      "input_diagrams": 270,
+      "k": 2,
+      "q": 4
+    },
+    {
+      "input_diagrams": 672,
+      "k": 2,
+      "q": 5
+    },
+    {
+      "input_diagrams": 994,
+      "k": 2,
+      "q": 6
+    },
+    {
+      "input_diagrams": 9,
+      "k": 3,
+      "q": 1
+    },
+    {
+      "input_diagrams": 78,
+      "k": 3,
+      "q": 2
+    },
+    {
+      "input_diagrams": 240,
+      "k": 3,
+      "q": 3
+    },
+    {
+      "input_diagrams": 432,
+      "k": 3,
+      "q": 4
+    },
+    {
+      "input_diagrams": 909,
+      "k": 3,
+      "q": 5
+    },
+    {
+      "input_diagrams": 12,
+      "k": 4,
+      "q": 1
+    },
+    {
+      "input_diagrams": 96,
+      "k": 4,
+      "q": 2
+    },
+    {
+      "input_diagrams": 252,
+      "k": 4,
+      "q": 3
+    }
+  ],
+  "input_diagrams": 6547,
+  "largest_selected_chamber_set": 4,
+  "not_certified": [
+    "ordinary invariance",
+    "Part 7 coloured-order interface",
+    "prism homotopy"
+  ],
+  "reachable_closure_states": 20880,
+  "seeded_closures": 13094,
+  "status": "PASS — finite diagrams only"
+}

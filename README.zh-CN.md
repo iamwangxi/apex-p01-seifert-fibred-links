@@ -1,45 +1,50 @@
-# Seifert 纤维链环外部的循环距离复形可缩性
+# Seifert 纤维链环及双块 splice 链环的不可压生成曲面复形可缩
 
-对 $`S^3`$ 中每个非空、定向、非分裂且外部为 Seifert 纤维空间的链环，约化不可压**循环距离旗复形**均可缩。选定纤维化后，若 $`k=\phi(h)\ne0`$，复形为一点；若 $`k=0`$，顶点对应带标记、未使用锥点孔的平面单位需求匹配，类距离由完整补块的区域势振幅精确给出，匹配流的相容取整提供有限包含的零伦。
+对 $`S^3`$ 中非空、定向、非分裂且外部为 Seifert 纤维空间的链环，以及下面指定的双块 splice 链环，原始**几何不交复形** $`IS(L)=Y(L)`$ 可缩。允许不连通生成曲面，排除闭分量，逐分量不可压；单形必须有整个有限曲面系统的同时不交代表。循环距离旗复形 $`X(L)`$ 是 $`Y(L)`$ 的单纯子复形及**强形变收缩核**。本类中 $`Y`$ 的旗性质由证明得到。
 
-本仓库保存 Apex 比赛论文 *Contractibility of the complex of incompressible Seifert surfaces: the knot case of Kakimizu's problem*（Apex Intelligence，2026 年 9 月 11 日，48 页）突破贡献投稿的证明与复算材料。目标 PDF 的 SHA-256 为：
+双块族要求外部确实是带所述实际经线的 $`S^3`$ 链环外部，且只有两个平面圆乘积 JSJ 块、一个公共真正 JSJ 环面，纤维斜率交数非零，每个乘积块至少两条实际边界。推广允许任意一侧保留一个任意阶锥点，并包含锥点侧只有一条实际边界的 cable 情形。行列式为负一及纤维交数非零不能代替 $`S^3`$ 外部的独立假设。
+
+目标是 Apex Intelligence 的比赛版 *Contractibility of the complex of incompressible Seifert surfaces: the knot case of Kakimizu's problem*（2026-09-11，48 页），[公开 PDF](https://math.apexin.net/papers/seifert-surfaces.pdf)，SHA-256：
 
 ```text
 34f17d7d99780d3fd3626d9e5d7b35d6aa76661c404f191b6df341b300c0c06f
 ```
 
-目标论文在印刷第 2 页给出纽结定理与迫使生成曲面连通的链环推广，并列出尚未处理的一般链环扩展。本证明允许不连通生成曲面，研究循环距离复形；在生成曲面连通的共同范围内，两种复形一致。本证明没有宣称一般不连通情形下原始几何不交复形的全族结论。
+Theorems A、D 位于印刷第 2 页，覆盖纽结和 linking-indecomposable 链环；同页把一般链环及 Lemma 4.9 的共享分量障碍列为未处理扩展。本证明保留 Definition 4.1（印刷第 8 页）的同时几何不交单形，链环曲面约定依 Kakimizu 1992 印刷第 225 页。比赛第 8 页只说明纽结的两种邻接约定一致；不连通链环的差异归于 PS 期刊版印刷第 1490、1493 页。
 
 ## 阅读入口
 
-- [定义与主定理](proof/objects.md)：总链环边界斜率、约化约定和完整开补块。
-- [分类与一点情形](proof/classification.md)：填充分类、实心环面、非零纤维求值和平衡定向清单。
-- [闭轨形与两条实际边界](proof/two-boundaries.md)：自由积无限阶、闭双倍曲面覆盖、闭 Proposition 25 及基本点情形。
-- [普通环境同痕顶点双射](proof/vertex-bijection.md)与[精确类距离](proof/class-distance.md)：纤维商基本群胚、外围检测、相对乘积区和 PS 类最小值，含类距离公式（Theorem 5.3）与交叉阻碍（Lemma 5.4）。
-- [固定图匹配流取整](proof/matching-carrier.md)与[可缩性](proof/contractibility.md)：合法输出单形与零坐标面，以及合法纤维（Lemma 7.2）、有限模板与相位碰撞（Lemma 7.3）、支撑粘合（Lemma 7.4）和有限包含/CW 证明（Theorem 7.1）。
-- [双锥点例子](proof/double-cone-example.md)：平衡定向的四条正则 $`(2,3)`$ 纤维构成 $`T(8,12)`$，其中一对几何不交顶点的类距离为二。
-- [范围与依赖](proof/scope.md)、[参考文献](sources/bibliography.md)、[核验脚本说明](scripts/README.md)。英文证明在本目录内自足。
+- [共同对象与总定理 1.3](proof/objects.md)。
+- Seifert 循环证明：第 2–8 节，[分类](proof/classification.md)、[闭轨形与两边界](proof/two-boundaries.md)、[普通同痕顶点](proof/vertex-bijection.md)、[精确类距离](proof/class-distance.md)、[匹配流取整](proof/matching-carrier.md)、[可缩性](proof/contractibility.md)、[双锥点距离二例](proof/double-cone-example.md)。
+- Seifert 几何比较：第 10–11 节，[有限系统联合竖直化与同时复制](proof/geometric-realisation.md)、[强形变收缩与 CW 连续性](proof/geometric-retraction.md)。
+- 双块循环证明：第 12–22 节，[独立假设](proof/splice-objects.md)、[全属最小切片](proof/splice-minimal-cuts.md)、[水平片唯一性](proof/splice-horizontal-pieces.md)、[普通顶点与扭转商](proof/splice-vertices.md)、[局部](proof/splice-local-distance.md)与[全局距离](proof/splice-global-distance.md)、[解码](proof/splice-matching-carrier.md)、[可缩性](proof/splice-contractibility.md)、[单锥点](proof/splice-one-cone.md)、[实际链环例子](proof/splice-examples.md)；[附录 A](proof/splice-planar-blocks.md)完整证明块级输入。
+- 双块几何比较：第 23–28 节，[同时最小切割](proof/splice-geometric-normalisation.md)、[水平片的统一次序](proof/splice-horizontal-order.md)、[迹判据](proof/splice-trace-criterion.md)、[受限取整](proof/splice-trace-rounding.md)、[强形变收缩](proof/splice-geometric-retraction.md)、[无限制载体的反例](proof/splice-geometric-examples.md)。
+- [范围与依赖](proof/scope.md)、[文献版本及印刷页码](sources/bibliography.md)、[十二项诊断](scripts/README.md)。
 
-文献输入保留 PS 期刊版 Definition 2.1、Proposition 3.2 及其明确声明的第 3 节 Sakuma 接口；不调用 PS 第 4–7 节的投影、序和可缩性结果。Schultens Proposition 25 只用于已证明满足条件的闭 good aspherical 轨形，不调用 Remark 35。Hatcher 圆映射方法与经典平面匹配势方法均按实际用途注明归属，不主张裸结论在文献中从未出现。
+核心机制为 $`R=S_G\circ W`$ 和 $`H(x,t)=(1-t)x+tR(x)`$。Seifert 情形的相容图上，全部匹配有同时几何代表。双块非空迹情形还需迹循环词由同一标签次序重复 $`q`$ 次；JSJ 扇区上的限制势组成嵌套二值链，全区域同阈值取整保持这条链，故同伦留在合法的受限几何载体内。不能直接沿用全部匹配构成单形的断言。
 
-## 复算与证据边界
+## 复算、依赖和边界
 
-用 Python 3 标准库运行：
+在仓库根目录运行：
 
 ```text
 python3 -B scripts/run_all.py
 ```
 
-三个程序生成确定性的 JSON。两份独立程序保留各自实现，不导入或运行作者核验程序。有限样本不能替代全族符号证明，也不独立证明三维同痕或 PS 类最小值。任意输入的 PL 规范化与完整参数族过程已有终止性证明，尚无完整软件实现。
+十二项标准库程序输出确定性 JSON，默认逐字节比对且不写文件；加 `--update` 才刷新报告。七份独立复核实现保留各自计算函数。有限计算不替代任意三维同痕、文献输入和无限复形定理；通用 PL 规范化与完整参数族程序未全部实现。
 
-底层证明已完成拓扑分类、载体与可缩性两路独立对抗复核，均未发现致命或可修补数学问题；本目录落实了将同痕轨迹明确写成纤维商基本群胚映射的表述意见。另一次全新上下文的投稿包复核检查了证明覆盖、来源对齐、引用与可复现性；该复核没有重复两路数学复核。材料没有经过人类专家认证，也没有声称 Lean 形式化验证。
+保留 PS Definition 2.1、Proposition 3.2 及其第 3 节所述 Sakuma 非紧接口；双块距离另用 PS Lemma 3.5 和 Banks Proposition 4.2。不调用 PS 第 4–7 节的投影、序、拆解或可缩性结果，不对其作超出本证明的评价。Schultens Proposition 25 只用于满足条件的闭 good aspherical 轨形，不用 Remark 35。Hatcher 圆映射与经典匹配势方法按实际用途注明来源。
+
+Seifert 循环证明和几何比较各有两路独立对抗复核，均无致命或需补证问题；双块循环证明有两轮复核及投稿包修订。Seifert 几何比较另有独立再推导。双块几何比较的全新上下文复核亦已完成：致命 0、需补证 0、表述 1。已将低 cable 一点结论明确限定于零侧；水平侧低 cable 继续按迹序论证处理。本合并版本已由 Claude 完成最终编辑审阅。全部 Markdown 页面已经 GitHub 官方渲染核对。
+
+未处理一般图流形、多块、多活跃端口及无实际边界块。非平凡环面结的反向零框架两平行已给出受限类可除度为零、某顶点最小伴随环面迹却为二的情形，故双块切片定理不能直接沿 JSJ 树归纳。不主张裸可缩性结论首创，不声称经过人类专家认证或 Lean 形式化。
 
 ## AI 声明
 
-GPT-6.1 Sol, in OpenAI Codex under human direction, developed the proof, ran the computations where applicable, and drafted this text; separate GPT-6.1 Sol sessions in fresh contexts performed adversarial reviews. Claude planned the work, checked key steps against the sources, and reviewed and edited the final text. GPT-6 Astra, also in OpenAI Codex, advised on research direction and submission scope. No human expert has certified the work.
+GPT-6.1 Sol, in OpenAI Codex under human direction, developed the proofs, ran the computations, and drafted this text; separate GPT-6.1 Sol sessions in fresh contexts performed adversarial reviews, and an independent GPT-6 Astra session re-derived the geometric-complex comparison. GPT-6 Astra also advised on research direction and submission scope. Claude planned the work, checked key steps against the sources, and reviewed and edited the final text. No human expert has certified the work.
 
 ## 许可与完整性
 
-原创文字与文档采用 CC BY 4.0；`scripts/` 代码采用 MIT License，全文见 [LICENSE](LICENSE)。外部论文保留各自权利，本目录不捆绑其全文或 PDF。[MANIFEST.sha256](MANIFEST.sha256) 列出其余全部文件的哈希。
+原创文字、文档、诊断数据与编排采用 CC BY 4.0；`scripts/` 代码采用 MIT，见 [LICENSE](LICENSE)。不捆绑外部论文全文。[MANIFEST.sha256](MANIFEST.sha256)覆盖其余全部文件。
 
 [English overview](README.md)

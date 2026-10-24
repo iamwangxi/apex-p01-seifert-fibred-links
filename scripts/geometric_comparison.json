@@ -1,0 +1,143 @@
+{
+  "arithmetic": "fractions.Fraction; no tolerances",
+  "counts": {
+    "decoder_calls": 14949,
+    "exact_recovery": 1145,
+    "full_support_reference_comparisons": 65,
+    "homotopy_parameter_checks": 7308,
+    "maximal_simplex_recovery": 1084,
+    "rational_inputs": 1827,
+    "reference_comparisons": 788,
+    "root_comparisons": 2042,
+    "threshold_intervals": 46949,
+    "zero_face_mergers": 1827
+  },
+  "double_lens": {
+    "cyclic_carrier": "two triangles with diagonal M00--M11",
+    "geometric_carrier": "tetrahedron on all four matching vertices",
+    "illegal_cyclic_edge_width": 2,
+    "midpoint_retraction": "(M01+M10)/2 -> (M00+M11)/2",
+    "preserved_edge_flow": [
+      "1/2",
+      "1/2",
+      "1/2",
+      "1/2"
+    ]
+  },
+  "graphs": [
+    {
+      "actual_vertices": 4,
+      "composition_inputs": 35,
+      "cyclic_edges": 5,
+      "edges": 4,
+      "matchings": 4,
+      "maximal_cyclic_simplices": 2,
+      "name": "double_lens",
+      "rational_input_denominator": 4,
+      "spherical_regions": 3
+    },
+    {
+      "actual_vertices": 6,
+      "composition_inputs": 35,
+      "cyclic_edges": 5,
+      "edges": 5,
+      "matchings": 4,
+      "maximal_cyclic_simplices": 2,
+      "name": "double_lens_forced_bridge",
+      "rational_input_denominator": 4,
+      "spherical_regions": 3
+    },
+    {
+      "actual_vertices": 6,
+      "composition_inputs": 5,
+      "cyclic_edges": 1,
+      "edges": 6,
+      "matchings": 2,
+      "maximal_cyclic_simplices": 1,
+      "name": "hexagon",
+      "rational_input_denominator": 4,
+      "spherical_regions": 2
+    },
+    {
+      "actual_vertices": 6,
+      "composition_inputs": 15,
+      "cyclic_edges": 3,
+      "edges": 7,
+      "matchings": 3,
+      "maximal_cyclic_simplices": 1,
+      "name": "grid_3x2",
+      "rational_input_denominator": 4,
+      "spherical_regions": 3
+    },
+    {
+      "actual_vertices": 8,
+      "composition_inputs": 70,
+      "cyclic_edges": 9,
+      "edges": 10,
+      "matchings": 5,
+      "maximal_cyclic_simplices": 2,
+      "name": "grid_4x2",
+      "rational_input_denominator": 4,
+      "spherical_regions": 4
+    },
+    {
+      "actual_vertices": 12,
+      "composition_inputs": 1001,
+      "cyclic_edges": 46,
+      "edges": 17,
+      "matchings": 11,
+      "maximal_cyclic_simplices": 6,
+      "name": "grid_4x3",
+      "rational_input_denominator": 4,
+      "spherical_regions": 7
+    },
+    {
+      "actual_vertices": 16,
+      "composition_inputs": 666,
+      "cyclic_edges": 410,
+      "edges": 24,
+      "matchings": 36,
+      "maximal_cyclic_simplices": 528,
+      "name": "grid_4x4",
+      "rational_input_denominator": 2,
+      "spherical_regions": 10
+    }
+  ],
+  "limits": [
+    "Bounded algebraic diagnostics, not a proof by enumeration.",
+    "No test of 3D verticalisation or isotopy detection.",
+    "Repository-local sources only; no external dependencies."
+  ],
+  "script_sha256": "3700aa0664065e9f654e43bd2d102258b9a364a4abc394160a1e4b25ec6279e2",
+  "source_sha256": {
+    "proof/class-distance.md": "7786c09aa26cffc8ab12099fe78b9e952537aed13721adda19e425c901adb2cc",
+    "proof/classification.md": "952fe68b46b73c2a195b9f3154bc81c628d3dbad5aa78c1438d5320af92ba10d",
+    "proof/contractibility.md": "69b9ee62a2bfa5c620ec24cfb26012ec305f28c4d887bc6c0c4ced581df165b4",
+    "proof/double-cone-example.md": "90fbd75a8d79f834b336bef20bc941b95da88d471c891c8161e73c9b34112174",
+    "proof/geometric-realisation.md": "0a7f3b0753b6c901e160170b920700c0e0bd4ac7009fcc6684c3e0aa5b13bd1e",
+    "proof/geometric-retraction.md": "1979dc6b438941f3d18985b033bc54888a5c0df7676f6aab7fde694d5b7458f8",
+    "proof/matching-carrier.md": "7261527f4b706b431f243ac7d378ee550b3f312b3cea4a10b0b5aaf0d2d225f9",
+    "proof/objects.md": "5361d1d95f3bf9e871d329a3e0992b0b12fa9a45a4b832c86ac33cf99c49f1ce",
+    "proof/scope.md": "6386044aded56fae659b6126a1f2c5f9d1926f38b09d49818c8375505c47bd0d",
+    "proof/splice-contractibility.md": "9fdc99b57856776ef8d6dcbb229abe0bd43b331359266578c192443a9f5eda65",
+    "proof/splice-examples.md": "89a8fc992a256c6573ed851a5475e6d8597b63d0a7520a905f6397a4c9e8a2c9",
+    "proof/splice-geometric-examples.md": "2c0496b79d8430f3bda5d0a8b1f97609cf8973609eca9305d282c268fe2c874d",
+    "proof/splice-geometric-normalisation.md": "6d9d83de78ab1b2d2f5d45300414b044dade3b721c972b71fe3e8f2b7529f3f9",
+    "proof/splice-geometric-retraction.md": "3058d4bca6d4407ad747e724e6884ee84d145330c639570244d1b16ead1792b5",
+    "proof/splice-global-distance.md": "3b676e58f9da395ea84d5c1d68872c8d403273a7b01f57827a4553524cb6e93e",
+    "proof/splice-horizontal-order.md": "54ffa43527e94637fb5dd05fc5d5f5a736b237405324b02c08358df8a320e08e",
+    "proof/splice-horizontal-pieces.md": "a11e1c7e58472d7894316e3f0ade381ddc2e0d253b30cca7a9525a854a219e31",
+    "proof/splice-local-distance.md": "343227547a8f4df4eb2700e15ba2d2825fd48310e8c465bb8f37a79cd9da55a2",
+    "proof/splice-matching-carrier.md": "f4bf8b982175661fe436982cbedc36cbad6355c5a27b59aa6e0b445f00ce0aa4",
+    "proof/splice-minimal-cuts.md": "0cca3cac0ece12f30dd23ec4d80e0b7071bc3662460f55f0ed6a5751329e59fc",
+    "proof/splice-objects.md": "900b85a9153170bdcf9f542bcd593f41ee6eaa93b3728011c974d23023a60b27",
+    "proof/splice-one-cone.md": "3e8ea7b5adc7358e99157d7ad880602a7b4afa0a0f647e7eb162ab4360b5bec2",
+    "proof/splice-planar-blocks.md": "8347597dadd44b1c4b649c3c40c681026eab41ed3e95165769a324ae86df034b",
+    "proof/splice-trace-criterion.md": "4d692bde785abce5bf4918ff6afe9527f0b262a2404657b9361bd8fc8359ff86",
+    "proof/splice-trace-rounding.md": "46b350c49511cc354c03189c8cbaa47ac8ebe3147c6cf958725fc872dcc74beb",
+    "proof/splice-vertices.md": "bd248cdc2103f48a5e69ff807b8980b57a09685246be3cb92e5c942732f1f5ec",
+    "proof/two-boundaries.md": "fc075657bdfeea444f3019378c8975f2687cb5d28d20be2e6eec354e927afd83",
+    "proof/vertex-bijection.md": "a9c2ed3586ffd6fad80f9e085fd7b72ea9443b08668e412c81afdeddad236388"
+  },
+  "status": "PASS"
+}

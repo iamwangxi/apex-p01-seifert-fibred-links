@@ -202,12 +202,7 @@ def main():
                             'Does not prove Schultens Proposition 25 or PS Proposition 3.2.',
                             'No finite enumeration proves exhaustive Seifert classification.',
                             'No author checker was executed or imported.']}
-    target = HERE/'independent_topology.json'
-    target.write_text(json.dumps(data, ensure_ascii=False, indent=2)+'\n')
-    print(json.dumps({'status': data['status'], 'braid': data['braid_arc_orbit'],
-                      'jordan': data['jordan'],
-                      'double_profiles': len(data['closed_double_profiles'])},
-                     ensure_ascii=False))
+    print(json.dumps(data, ensure_ascii=False, indent=2, sort_keys=True))
 
 
 if __name__ == '__main__':

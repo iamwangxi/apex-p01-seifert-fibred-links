@@ -457,11 +457,7 @@ def main():
             'Region and width algorithms share the input drawing, whose segment embedding is checked exactly.']}
     assert before=={p.relative_to(BASE).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in sources}
     result['script_sha256']=hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
-    (HERE/'independent_carrier.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
-    print(json.dumps({'status':result['status'],'cases':[
-        {'name':c['name'],'boundaries':c['actual_boundaries'],
-         'regions':len(c['region_signatures']),'matchings':len(c['matching_list']),
-         'counts':c['counts']} for c in result['cases']]},ensure_ascii=False,indent=2))
+    print(json.dumps(result, ensure_ascii=False, indent=2, sort_keys=True))
 
 
 if __name__=='__main__':

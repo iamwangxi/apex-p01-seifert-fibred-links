@@ -1,0 +1,100 @@
+{
+  "counts": {
+    "edge_expectation_checks": 46442,
+    "exact_simplex_recovery": 2970,
+    "gluing_matrix_checks": 5,
+    "maximal_four_simplices": 6,
+    "nonempty_true_simplices": 103,
+    "oriented_linking_rows": 8,
+    "positive_threshold_intervals": 81182,
+    "rational_product_flows": 2025,
+    "reference_pair_comparisons": 18225,
+    "rounded_output_pair_checks": 109201,
+    "spherical_region_euler_checks": 17,
+    "threshold_values_including_zero": 81182,
+    "zero_face_component_quotients": 9090,
+    "zero_face_support_pairs": 10201
+  },
+  "limits": [
+    "Does not prove essentiality or simultaneous verticalisation of arbitrary surfaces.",
+    "Does not prove the unrestricted isotopy comparison or PS simplified intersection.",
+    "Does not verify the infinite finite-template argument or contractibility.",
+    "No assertion about a nonempty JSJ-trace carrier."
+  ],
+  "proof_sha256": {
+    "proof/class-distance.md": "7786c09aa26cffc8ab12099fe78b9e952537aed13721adda19e425c901adb2cc",
+    "proof/classification.md": "952fe68b46b73c2a195b9f3154bc81c628d3dbad5aa78c1438d5320af92ba10d",
+    "proof/contractibility.md": "69b9ee62a2bfa5c620ec24cfb26012ec305f28c4d887bc6c0c4ced581df165b4",
+    "proof/double-cone-example.md": "90fbd75a8d79f834b336bef20bc941b95da88d471c891c8161e73c9b34112174",
+    "proof/geometric-realisation.md": "0a7f3b0753b6c901e160170b920700c0e0bd4ac7009fcc6684c3e0aa5b13bd1e",
+    "proof/geometric-retraction.md": "1979dc6b438941f3d18985b033bc54888a5c0df7676f6aab7fde694d5b7458f8",
+    "proof/matching-carrier.md": "7261527f4b706b431f243ac7d378ee550b3f312b3cea4a10b0b5aaf0d2d225f9",
+    "proof/objects.md": "5361d1d95f3bf9e871d329a3e0992b0b12fa9a45a4b832c86ac33cf99c49f1ce",
+    "proof/scope.md": "6386044aded56fae659b6126a1f2c5f9d1926f38b09d49818c8375505c47bd0d",
+    "proof/splice-contractibility.md": "9fdc99b57856776ef8d6dcbb229abe0bd43b331359266578c192443a9f5eda65",
+    "proof/splice-examples.md": "89a8fc992a256c6573ed851a5475e6d8597b63d0a7520a905f6397a4c9e8a2c9",
+    "proof/splice-geometric-examples.md": "2c0496b79d8430f3bda5d0a8b1f97609cf8973609eca9305d282c268fe2c874d",
+    "proof/splice-geometric-normalisation.md": "6d9d83de78ab1b2d2f5d45300414b044dade3b721c972b71fe3e8f2b7529f3f9",
+    "proof/splice-geometric-retraction.md": "3058d4bca6d4407ad747e724e6884ee84d145330c639570244d1b16ead1792b5",
+    "proof/splice-global-distance.md": "3b676e58f9da395ea84d5c1d68872c8d403273a7b01f57827a4553524cb6e93e",
+    "proof/splice-horizontal-order.md": "54ffa43527e94637fb5dd05fc5d5f5a736b237405324b02c08358df8a320e08e",
+    "proof/splice-horizontal-pieces.md": "a11e1c7e58472d7894316e3f0ade381ddc2e0d253b30cca7a9525a854a219e31",
+    "proof/splice-local-distance.md": "343227547a8f4df4eb2700e15ba2d2825fd48310e8c465bb8f37a79cd9da55a2",
+    "proof/splice-matching-carrier.md": "f4bf8b982175661fe436982cbedc36cbad6355c5a27b59aa6e0b445f00ce0aa4",
+    "proof/splice-minimal-cuts.md": "0cca3cac0ece12f30dd23ec4d80e0b7071bc3662460f55f0ed6a5751329e59fc",
+    "proof/splice-objects.md": "900b85a9153170bdcf9f542bcd593f41ee6eaa93b3728011c974d23023a60b27",
+    "proof/splice-one-cone.md": "3e8ea7b5adc7358e99157d7ad880602a7b4afa0a0f647e7eb162ab4360b5bec2",
+    "proof/splice-planar-blocks.md": "8347597dadd44b1c4b649c3c40c681026eab41ed3e95165769a324ae86df034b",
+    "proof/splice-trace-criterion.md": "4d692bde785abce5bf4918ff6afe9527f0b262a2404657b9361bd8fc8359ff86",
+    "proof/splice-trace-rounding.md": "46b350c49511cc354c03189c8cbaa47ac8ebe3147c6cf958725fc872dcc74beb",
+    "proof/splice-vertices.md": "bd248cdc2103f48a5e69ff807b8980b57a09685246be3cb92e5c942732f1f5ec",
+    "proof/two-boundaries.md": "fc075657bdfeea444f3019378c8975f2687cb5d28d20be2e6eec354e927afd83",
+    "proof/vertex-bijection.md": "a9c2ed3586ffd6fad80f9e085fd7b72ea9443b08668e412c81afdeddad236388"
+  },
+  "scope": "two copies of the five-edge marked-root planar support; exact fractions",
+  "script_sha256": "1f51e1e8e10cee7d0b36a7d22079615e89f2d271d531d1336d35a3cd9be77e59",
+  "shortcut_counterexamples": {
+    "common_threshold_midpoint_output": {
+      "U": "1/2",
+      "V": "1/2"
+    },
+    "correct_global_distance": 2,
+    "independent_rounding_support_diameter": 2,
+    "local_max_shortcut": 1,
+    "wrong_independent_root_shifts": 1
+  },
+  "status": "all exact finite assertions passed",
+  "topological_coordinate_diagnostics": {
+    "actual_linking_row_sums": [
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "fibre_intersection": 2,
+    "fibre_section_matrix": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "meridian_longitude_matrix": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ]
+  }
+}

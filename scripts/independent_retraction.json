@@ -1,0 +1,66 @@
+{
+  "analytic_decoder": "s=min(lambda01,lambda10); (lambda00+s,lambda01-s,lambda10-s,lambda11+s,lambda_star)",
+  "arithmetic": "exact Fraction after rational PL construction",
+  "counts": {
+    "closed_form_comparisons": 300,
+    "complete_block_pair_comparisons": 26,
+    "convex_fibre_checks": 1200,
+    "critical_threshold_inputs": 46,
+    "crossing_common_face_decoders": 240,
+    "crossing_common_face_homotopies": 960,
+    "cyclic_faces": 57,
+    "decoder_calls": 14768,
+    "embedded_mother_graphs": 3,
+    "exhaustive_cyclic_face_recovery": 1254,
+    "homotopy_checks": 5520,
+    "random_geometric_simplex_points": 1380,
+    "random_true_simplex_recovery": 128,
+    "reference_comparisons": 598,
+    "root_comparisons": 471,
+    "rounding_probes": 47924,
+    "zero_deletion_comparisons": 468
+  },
+  "extra_arc_transverse_crossings": 2,
+  "fibre_interval": "max(0,a+c+z-1) <= lambda00 <= min(a,c)",
+  "graphs": [
+    {
+      "feasible_deleted_supports": 9,
+      "matchings": 4,
+      "maximal_cyclic_simplex_dimensions": [
+        2,
+        2
+      ],
+      "name": "two_cone_double_lens",
+      "regions": 3
+    },
+    {
+      "feasible_deleted_supports": 43,
+      "matchings": 5,
+      "maximal_cyclic_simplex_dimensions": [
+        3,
+        3
+      ],
+      "name": "four_boundary_connected_graph",
+      "regions": 4
+    },
+    {
+      "feasible_deleted_supports": null,
+      "matchings": 5,
+      "maximal_cyclic_simplex_dimensions": [
+        3,
+        3
+      ],
+      "name": "same_core_Dehn_twisted_connectors",
+      "regions": 4
+    }
+  ],
+  "limits": [
+    "No proof of simultaneous 3D verticalisation.",
+    "No numerical test proves CW product continuity.",
+    "No import of author code, no network or source traversal."
+  ],
+  "nonidentity_common_face_samples": 213,
+  "seed": 20261024,
+  "status": "PASS",
+  "writes_files": false
+}

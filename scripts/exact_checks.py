@@ -3,7 +3,7 @@
 
 Uniform results are proved in proof/. Finite checks cover free products,
 Jordan-feature equations and a two-cone support; no finite list proves the
-family theorem. Writes only exact_checks.json beside this script.
+family theorem. Prints deterministic JSON; writes no files.
 """
 from fractions import Fraction as Q
 from itertools import combinations, product
@@ -350,11 +350,7 @@ def main():
                               'The two-cone graph is one example and its nine feasible subgraphs.',
                               'No arbitrary arc normalisation or parameter-family algorithm is implemented.',
                               'The family theorem and class minima require the written geometric proofs.']}
-    (ROOT/'exact_checks.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
-    print(json.dumps({'conjugated_products': result['free_product']['conjugated_products'],
-                      'abelian_and_cover': result['abelian_and_cover'],
-                      'carrier_counts': result['two_cone_carrier']['counts']},
-                     ensure_ascii=False,sort_keys=True))
+    print(json.dumps(result, ensure_ascii=False, indent=2, sort_keys=True))
 
 
 if __name__ == '__main__':

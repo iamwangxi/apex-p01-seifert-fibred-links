@@ -1,47 +1,56 @@
-# Contractibility of the cyclic complex for Seifert-fibred link exteriors via matching flows
+# Contractibility of incompressible spanning-surface complexes for Seifert-fibred and two-block splice links
 
-The reduced incompressible **cyclic-distance flag complex** of every nonempty oriented non-split link in $`S^3`$ with Seifert-fibred exterior is contractible. For a chosen fibering with $`\phi(h)\ne0`$ it is a point. When $`\phi(h)=0`$, the proof gives an explicit unit-demand matching model on a planar base with marked unused cone holes, an exact class-distance formula, and compatible flow decoding for finite inclusion nullhomotopies.
+The original **geometric disjointness complex** $`IS(L)=Y(L)`$ of incompressible spanning surfaces is contractible for every nonempty oriented non-split $`S^3`$ link whose exterior is Seifert fibred, and for the specified two-block splice family below. Surfaces may be disconnected. The cyclic-distance flag complex $`X(L)`$ is a simplicial subcomplex and a **strong deformation retract** of $`Y(L)`$ in the usual CW topology. In these families the geometric complex is itself flag; flag completion is a proved property, not its definition.
 
-This repository contains the proof and reproducible diagnostics for a **supplement / breakthrough contribution** to the Apex competition paper *Contractibility of the complex of incompressible Seifert surfaces: the knot case of Kakimizu's problem*, Apex Intelligence, 11 September 2026, 48 pages. Target PDF SHA-256:
+The two-block family consists of actual $`S^3`$ link exteriors with two planar circle-product JSJ blocks, one common genuine JSJ torus, nonparallel fibre slopes, and at least two actual link boundaries per product block. The one-cone extension allows a single retained cone of arbitrary order on either side, including the coned cable block with one actual boundary. Being an $`S^3`$ exterior with the stated meridians is an **independent hypothesis**, not a consequence of a determinant-minus-one gluing matrix.
+
+This is a supplement / breakthrough contribution to Apex Intelligence, *Contractibility of the complex of incompressible Seifert surfaces: the knot case of Kakimizu's problem*, official competition version of 11 September 2026, 48 pages. [Target PDF](https://math.apexin.net/papers/seifert-surfaces.pdf), SHA-256:
 
 ```text
 34f17d7d99780d3fd3626d9e5d7b35d6aa76661c404f191b6df341b300c0c06f
 ```
 
-That paper proves the knot case and a link case under a connectedness-forcing condition; p. 2 identifies the untreated general-link extension. This manuscript permits disconnected spanning surfaces and uses complete-block cyclic distance. It does not claim contractibility of the original geometric-disjointness complex for every Seifert link. On the common connected-surface range the complexes agree.
+Theorems A and D, printed p. 2, cover knots and linking-indecomposable links. The discussion there identifies the shared-component obstruction to general links at Lemma 4.9. We retain Definition 4.1's simultaneous geometric simplices (printed p. 8) and Kakimizu 1992's link-spanning convention (printed p. 225). Competition p. 8 says geometric adjacency and cyclic adjacency agree **for knots**; the disconnected-link distinction is explicitly discussed in Przytycki–Schultens' journal edition, printed pp. 1490 and 1493. This package proves geometric contractibility for the two stated link families, while allowing the extra geometric edges that disconnected surfaces can create.
 
 ## Reading the proof
 
-1. [Objects and main theorem](proof/objects.md): prescribed total-link slopes, reduced surfaces and one whole complementary block.
-2. [Classification and the point branch](proof/classification.md): the full filling classification, solid torus and nonzero fibre evaluation, and the exhaustive balanced list.
-3. [Closed orbifolds and two boundaries](proof/two-boundaries.md): free-product infinite order, a genuine surface cover of the double, closed Proposition 25 and elementary point cases.
-4. [Ordinary ambient-isotopy vertex bijection](proof/vertex-bijection.md): simultaneous verticalisation, the fibre quotient of the fundamental groupoid, joint arcs and effective codes.
-5. [Exact class distance](proof/class-distance.md): cone/peripheral detection, all relative product-region cases, PS Proposition 3.2, connected-region potentials (Theorem 5.3) and the crossing obstruction (Lemma 5.4).
-6. [Fixed matching-polytopes](proof/matching-carrier.md): spherical circulations, common floor rounding, continuity, zero faces and exact barycentric recovery.
-7. [Contractibility](proof/contractibility.md): legal fibres (Lemma 7.2), finite height templates and phase collisions (Lemma 7.3), support gluing (Lemma 7.4) and the finite-inclusion/CW proof (Theorem 7.1).
-8. [Double-cone example](proof/double-cone-example.md): four balanced regular $`(2,3)`$ fibres, an oriented $`T(8,12)`$, with geometrically disjoint vertices at class distance two.
-9. [Scope and dependencies](proof/scope.md), [bibliography](sources/bibliography.md), and [exact finite diagnostics](scripts/README.md).
+The [objects and combined theorem](proof/objects.md) give the common vertex convention, whole open complementary blocks and Theorem 1.3. Numbering is continuous across the two families; the planar-block lemmas form Appendix A.
 
-The proof uses PS journal Definition 2.1 and Proposition 3.2, including its declared §3 Sakuma interface. It uses no PS §§4–7 projection, order or contractibility result. Schultens' Proposition 25 is applied only to closed good aspherical orbifolds; Remark 35 is not an input. The fixed-graph and finite-family arguments are fully included here and require no companion manuscript.
+1. **Seifert cyclic proof, Sections 2–8:** [classification and point branches](proof/classification.md); [closed orbifolds and two boundaries](proof/two-boundaries.md); [ordinary-isotopy vertices](proof/vertex-bijection.md); [exact class distance](proof/class-distance.md); [matching-flow decoder](proof/matching-carrier.md); [finite inclusion nullhomotopies](proof/contractibility.md); [double-cone example](proof/double-cone-example.md).
+2. **Seifert geometric comparison, Sections 10–11:** [joint verticalisation, copies and geometric flagness](proof/geometric-realisation.md); [strong deformation retraction, CW continuity and convex fibres](proof/geometric-retraction.md). Theorem 11.2 uses $`R=S_G\circ W`$ and $`H(x,t)=(1-t)x+tR(x)`$.
+3. **Splice cyclic proof, Sections 12–22:** [hypotheses](proof/splice-objects.md); [essential cuts and all-genus minimum trace](proof/splice-minimal-cuts.md); [relative horizontal uniqueness](proof/splice-horizontal-pieces.md); [ordinary vertices and twist quotient](proof/splice-vertices.md); [local](proof/splice-local-distance.md) and [global distances](proof/splice-global-distance.md); [decoder](proof/splice-matching-carrier.md); [contractibility](proof/splice-contractibility.md); [one cone](proof/splice-one-cone.md); [actual link witnesses](proof/splice-examples.md). [Appendix A](proof/splice-planar-blocks.md) contains the full block inputs.
+4. **Splice geometric comparison, Sections 23–28:** [simultaneous efficient cuts](proof/splice-geometric-normalisation.md); [ordered horizontal pieces](proof/splice-horizontal-order.md); [trace criterion](proof/splice-trace-criterion.md); [restricted rounding](proof/splice-trace-rounding.md); [strong deformation retraction](proof/splice-geometric-retraction.md); [obstructions to unrestricted matching carriers](proof/splice-geometric-examples.md). Theorem 27.1 is the splice comparison.
 
-## Reproducing the diagnostics
+[Scope and verification boundary](proof/scope.md), [checked bibliography](sources/bibliography.md), and [diagnostics](scripts/README.md) complete the package. No companion proof is needed to supply an internal lemma.
 
-Python 3 and its standard library suffice:
+## Mechanism and limits
+
+For a balanced Seifert exterior, ordinary vertices are planar unit-demand matching systems with unused cone holes retained as marks. Complete-block distance is the oscillation of one region potential. Common-threshold rounding decodes every matching flow and recovers every true cyclic simplex point exactly. Joint verticalisation and parallel allocation make all matchings on a compatible graph one geometric simplex, which carries the straight-line deformation.
+
+For two blocks, every class has all-genus minimum trace $`q=\mathrm{div}(\Phi|_T)`$. A mixed cut has coherent nonempty trace, one horizontal piece and annuli with actual unit ends. Nonempty trace imposes a further condition: the trace word is $`q`$ repetitions of one cyclic ordering of the surface labels. Equivalently the pairwise potential oscillation on JSJ sectors is at most one. Restricted potentials form a nested binary chain; the **existing full-region decoder** preserves that chain. Its smaller trace-constrained geometric carriers therefore carry the same deformation. All matchings on a common graph need not form a geometric simplex.
+
+PS journal Definition 2.1, Proposition 3.2 and their stated early Section 3 inputs remain explicit literature dependencies. The splice metric also retains PS Lemma 3.5 and Banks Proposition 4.2. No PS Sections 4–7 projection, order, dismantling or contractibility theorem is used. Schultens' Proposition 25 is used only for closed good aspherical orbifolds, after its hypotheses are proved; Remark 35 is not used. The bibliography credits Hatcher's circle-map method and classical planar matching heights.
+
+No theorem here covers arbitrary graph-manifold exteriors, more blocks, multiple active ports or blocks without actual boundary. Oppositely oriented zero-framed parallels of a nontrivial torus knot already give a class with two essential companion-torus traces although the restricted class has divisibility zero. Thus the two-block minimum-trace theorem cannot simply be iterated along a JSJ tree. No priority is claimed for the bare contractibility conclusion, and no exhaustive novelty search was undertaken.
+
+## Reproduction and review status
+
+From the repository root, with Python 3 and its standard library:
 
 ```text
 python3 -B scripts/run_all.py
 ```
 
-The three checkers write deterministic JSON files beside themselves. The two independent checkers retain separate implementations and do not import or execute the author's checker. Their finite tests supplement the written proof; they do not certify the uniform theorem, PS class minimality or arbitrary ambient isotopy. The unrestricted PL preprocessing and parameter-family procedure are specified mathematically, rather than fully implemented.
+The twelve diagnostic programs print deterministic JSON. The runner compares all reports byte for byte without writing; `--update` deliberately refreshes the reports. Seven programs retain independently developed review implementations. Tests cover the cyclic models, geometric copies, exact retraction, crossing supports on common faces, coherent trace orders and restricted carriers. They do not certify arbitrary three-dimensional isotopy, the literature inputs or the infinite-complex theorem. The general PL normaliser and complete parameter-family procedure are specified mathematically and are not fully implemented.
 
-The underlying proof underwent two separate adversarial reviews, covering topology/classification and carrier/contractibility. Both found no fatal or repairable mathematical issue. The present package incorporates the topology review's request to state the fibre quotient explicitly. A separate fresh-context package review checked proof coverage, source alignment, references and reproducibility; it did not repeat the mathematical reviews. No claim is made that the bare contractibility conclusion is new. Hatcher's circle-map mechanism and classical planar matching heights are credited in the bibliography.
+The Seifert cyclic proof and its geometric comparison each received two fresh-context adversarial reviews without fatal or repair-requiring findings. The splice cyclic proof received two review rounds and package corrections. An independent derivation agreed with the Seifert geometric comparison. The two-block geometric comparison also received a fresh-context review without fatal or repair-requiring findings. Its wording correction is incorporated: only a low cable block on the zero side forces a singleton; a low horizontal-side cable block remains subject to the trace-order proof. Claude completed the final editorial review of this assembled version. Review status is evidence metadata, not a mathematical hypothesis. Every Markdown page was checked through GitHub's official rendering.
 
 ## AI disclosure
 
-GPT-6.1 Sol, in OpenAI Codex under human direction, developed the proof, ran the computations where applicable, and drafted this text; separate GPT-6.1 Sol sessions in fresh contexts performed adversarial reviews. Claude planned the work, checked key steps against the sources, and reviewed and edited the final text. GPT-6 Astra, also in OpenAI Codex, advised on research direction and submission scope. No human expert has certified the work.
+GPT-6.1 Sol, in OpenAI Codex under human direction, developed the proofs, ran the computations, and drafted this text; separate GPT-6.1 Sol sessions in fresh contexts performed adversarial reviews, and an independent GPT-6 Astra session re-derived the geometric-complex comparison. GPT-6 Astra also advised on research direction and submission scope. Claude planned the work, checked key steps against the sources, and reviewed and edited the final text. No human expert has certified the work.
 
 ## Licence and integrity
 
-Original prose and documentation are licensed under CC BY 4.0. Code in `scripts/` is licensed under the MIT License; see [LICENSE](LICENSE). External publications retain their own rights and are not bundled. [MANIFEST.sha256](MANIFEST.sha256) records every other packaged file.
+Original prose, documentation, diagnostic data and arrangement are CC BY 4.0. Code in `scripts/` is MIT-licensed; see [LICENSE](LICENSE). External publications retain their own rights and are not bundled. [MANIFEST.sha256](MANIFEST.sha256) lists every other packaged file.
 
 [中文说明](README.zh-CN.md)

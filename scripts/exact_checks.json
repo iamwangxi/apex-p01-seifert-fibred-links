@@ -1,105 +1,151 @@
 {
-  "status": "finite diagnostics passed; uniform proof is in the manuscript",
-  "script_sha256": "a2d964e8c91f2471e1e2fc8b05d631a2369f8f4de2d1d515e47e53957b4812b9",
+  "abelian_and_cover": {
+    "double_cover_profiles": 40,
+    "feature_partitions": 9860,
+    "genus_examples": [
+      {
+        "actual_boundaries": 2,
+        "cover_genus": 2,
+        "degree": 2,
+        "orders": [
+          2
+        ]
+      },
+      {
+        "actual_boundaries": 2,
+        "cover_genus": 8,
+        "degree": 6,
+        "orders": [
+          2,
+          3
+        ]
+      },
+      {
+        "actual_boundaries": 4,
+        "cover_genus": 6,
+        "degree": 2,
+        "orders": [
+          2
+        ]
+      },
+      {
+        "actual_boundaries": 4,
+        "cover_genus": 20,
+        "degree": 6,
+        "orders": [
+          2,
+          3
+        ]
+      }
+    ],
+    "peripheral_membership_tests": 72616
+  },
   "free_product": {
     "conjugated_products": 81088,
     "profiles": [
       {
+        "conjugated_products": 968,
+        "conjugators": 22,
         "orders": [
           2,
           3
-        ],
-        "conjugators": 22,
-        "conjugated_products": 968
+        ]
       },
       {
+        "conjugated_products": 5184,
+        "conjugators": 36,
         "orders": [
           2,
           5
-        ],
-        "conjugators": 36,
-        "conjugated_products": 5184
+        ]
       },
       {
+        "conjugated_products": 9600,
+        "conjugators": 40,
         "orders": [
           3,
           4
-        ],
-        "conjugators": 40,
-        "conjugated_products": 9600
+        ]
       },
       {
+        "conjugated_products": 19208,
+        "conjugators": 49,
         "orders": [
           3,
           5
-        ],
-        "conjugators": 49,
-        "conjugated_products": 19208
+        ]
       },
       {
+        "conjugated_products": 46128,
+        "conjugators": 62,
         "orders": [
           4,
           5
-        ],
-        "conjugators": 62,
-        "conjugated_products": 46128
+        ]
       }
     ],
     "scope": "conjugators of syllable length at most two; all nonzero cone powers"
   },
-  "abelian_and_cover": {
-    "feature_partitions": 9860,
-    "peripheral_membership_tests": 72616,
-    "double_cover_profiles": 40,
-    "genus_examples": [
-      {
-        "actual_boundaries": 2,
-        "orders": [
-          2
-        ],
-        "degree": 2,
-        "cover_genus": 2
-      },
-      {
-        "actual_boundaries": 2,
-        "orders": [
-          2,
-          3
-        ],
-        "degree": 6,
-        "cover_genus": 8
-      },
-      {
-        "actual_boundaries": 4,
-        "orders": [
-          2
-        ],
-        "degree": 2,
-        "cover_genus": 6
-      },
-      {
-        "actual_boundaries": 4,
-        "orders": [
-          2,
-          3
-        ],
-        "degree": 6,
-        "cover_genus": 20
-      }
-    ]
-  },
+  "limitations": [
+    "Only bounded conjugators and sampled orders/boundary counts are tested.",
+    "The two-cone graph is one example and its nine feasible subgraphs.",
+    "No arbitrary arc normalisation or parameter-family algorithm is implemented.",
+    "The family theorem and class minima require the written geometric proofs."
+  ],
+  "script_sha256": "e81acaf6af04f4438b90e7563dd088a04d84fc4bb12501045528dd73e4f2c4e7",
+  "status": "finite diagnostics passed; uniform proof is in the manuscript",
   "two_cone_carrier": {
+    "cone_points": [
+      [
+        "1",
+        "-1/4"
+      ],
+      [
+        "6",
+        "-1/4"
+      ]
+    ],
     "counts": {
+      "exact_simplex_recoveries": 187,
       "feasible_graphs": 9,
       "ordered_matching_pairs": 36,
       "rational_flows": 121,
-      "threshold_probes": 536,
       "reference_comparisons": 400,
       "root_comparisons": 319,
-      "zero_support_comparisons": 121,
-      "exact_simplex_recoveries": 187
+      "threshold_probes": 536,
+      "zero_support_comparisons": 121
     },
+    "decoded_midpoint": [
+      0,
+      3
+    ],
     "drawing_side_probes": 12,
+    "edge_incidence": [
+      [
+        3,
+        1,
+        1,
+        0
+      ],
+      [
+        3,
+        1,
+        0,
+        1
+      ],
+      [
+        4,
+        2,
+        2,
+        0
+      ],
+      [
+        4,
+        2,
+        0,
+        2
+      ]
+    ],
     "matchings": [
       [
         0,
@@ -117,6 +163,10 @@
         1,
         3
       ]
+    ],
+    "nonadjacent_pair": [
+      1,
+      2
     ],
     "pair_widths": [
       [
@@ -142,32 +192,6 @@
         1,
         1,
         0
-      ]
-    ],
-    "edge_incidence": [
-      [
-        3,
-        1,
-        1,
-        0
-      ],
-      [
-        3,
-        1,
-        0,
-        1
-      ],
-      [
-        4,
-        2,
-        2,
-        0
-      ],
-      [
-        4,
-        2,
-        0,
-        2
       ]
     ],
     "polylines": [
@@ -219,30 +243,6 @@
           0
         ]
       ]
-    ],
-    "cone_points": [
-      [
-        "1",
-        "-1/4"
-      ],
-      [
-        "6",
-        "-1/4"
-      ]
-    ],
-    "nonadjacent_pair": [
-      1,
-      2
-    ],
-    "decoded_midpoint": [
-      0,
-      3
     ]
-  },
-  "limitations": [
-    "Only bounded conjugators and sampled orders/boundary counts are tested.",
-    "The two-cone graph is one example and its nine feasible subgraphs.",
-    "No arbitrary arc normalisation or parameter-family algorithm is implemented.",
-    "The family theorem and class minima require the written geometric proofs."
-  ]
+  }
 }

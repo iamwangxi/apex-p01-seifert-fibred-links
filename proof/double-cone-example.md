@@ -34,6 +34,6 @@ Hence
 \delta(M_{01},M_{10})=2,
 ```
 
-and every other distinct pair has distance one. The carrier is the square polytope triangulated by the true diagonal $`M_{00}M_{11}`$. At its midpoint, the illegal formal vertex average $`([M_{01}]+[M_{10}])/2`$ has the same edge flow as the decoder's valid output $`([M_{00}]+[M_{11}])/2`$. The four matchings even have the same endpoint pairing; their distinction uses actual arc classes, not merely different labels.
+and every other distinct pair has distance one. The carrier is the square polytope triangulated by the true diagonal $`M_{00}M_{11}`$. The midpoint $`([M_{01}]+[M_{10}])/2`$ of the extra geometric edge is a valid point of $`|Y|`$ but does not lie in $`|X_G|`$. It has the same edge flow as the decoder's output $`([M_{00}]+[M_{11}])/2`$. The four matchings even have the same endpoint pairing; their distinction uses actual arc classes, not merely different labels.
 
 This example verifies that extending the proof by a geometric-disjointness shortcut would fail. It is a fixed-support certificate, not a claim that a particular pair of interpolated height functions realises that old vertex average.

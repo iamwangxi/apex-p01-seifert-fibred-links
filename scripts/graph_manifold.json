@@ -1,0 +1,24 @@
+{
+  "output": [
+    "all_nonunit_port_flows: 85",
+    "all_nonunit_simplex_recovery: 25",
+    "coherent_boundary_arrays: 308",
+    "global_true_simplex_recovery: 91",
+    "global_zero_face_comparisons: 182",
+    "horizontal_no_new_index: 17060",
+    "independent_port_reset_negative_control: 1",
+    "independent_threshold_negative_control: 1",
+    "no_empty_digon_systems: 13",
+    "packet_prefix_words: 3430",
+    "planar_ribbon_systems: 1509",
+    "positive_feasible_reduced_supports: 4",
+    "potential_points: 465",
+    "pure_relative_level_points: 155",
+    "reference_and_global_root: 2790",
+    "relative_level_negative_control: 1",
+    "relative_rank_splice_examples: 11",
+    "unreduced_lens_quotient: 1",
+    "PASS: exact finite diagnostics; packet topology, isotopy and geometric carrier are proved in the manuscript."
+  ],
+  "scope": "Finite diagnostics; not a topology certificate."
+}

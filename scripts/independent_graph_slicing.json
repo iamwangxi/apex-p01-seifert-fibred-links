@@ -1,0 +1,25 @@
+{
+  "output": [
+    "six-component: (0, 4, -4) (div, fibre-intersection, mu_v, mu_w)= ((2, 2, 2, 2), (2, 2, -2, -2)) norm= 8",
+    "all-zero: (0, 0, 0) port-data= ((0, 2, 0, 0), (0, 2, 0, 0)) norm= 0",
+    "four-block: (-4, 0, 0, -27) port-data= ((2, 2, 2, -2), (2, 2, 2, -2), (1, 5, -3, -7)) norm= 34 global genus=14",
+    "five-block: (-4, 0, 0, -27, 0) port-data= ((2, 2, 2, -2), (2, 2, 2, -2), (1, 5, -3, -7), (0, 2, 0, 0)) norm= 34 components=(genus14,b8)+(annulus)",
+    "six group graph: 2186 vertices, 2185 edges; connected, acyclic",
+    "coherent_cyclic_arrays: 2035",
+    "new_S3_examples: 3",
+    "packet_words: 16382",
+    "relative_height_line_points: 57",
+    "relative_height_strip_points: 496",
+    "six_C_vertices_in_window: 1457",
+    "six_D_vertices_in_window: 729",
+    "six_edges_in_window: 2185",
+    "six_exact_distance_comparisons: 6400",
+    "tree_interval_product_edges: 3046",
+    "tree_interval_product_triangles: 1920",
+    "tree_interval_product_vertices: 1127",
+    "weighted_crossing_outer_sectors: 64",
+    "whole_open_filling_sectors: 91748",
+    "PASS: finite diagnostics only; topology and class minimality require the written proofs."
+  ],
+  "scope": "Finite diagnostics; not a topology certificate."
+}

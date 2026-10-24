@@ -8,7 +8,7 @@ Run from the repository root with Python 3 and its standard library:
 python3 -B scripts/run_all.py
 ```
 
-All twelve child programs print deterministic JSON and write no files. The runner captures each report, normalises JSON key order and compares it byte for byte with the bundled file of the same basename. It exits nonzero on any failed assertion, child failure or differing report. The default run writes nothing. After an authorised package change, `python3 -B scripts/run_all.py --update` refreshes only those twelve reports. No network, third-party package, external working file or current timestamp is required.
+All sixteen child programs print deterministic JSON and write no files. The runner captures each report, normalises JSON key order and compares it byte for byte with the bundled file of the same basename. It exits nonzero on any failed assertion, child failure or differing report. The default run writes nothing. After an authorised package change, `python3 -B scripts/run_all.py --update` refreshes only those sixteen reports. No network, third-party package, external working file or current timestamp is required.
 
 ## Cyclic models
 
@@ -29,6 +29,15 @@ All twelve child programs print deterministic JSON and write no files. The runne
 
 - `independent_splice_geometry.py`: a fresh independent trace-order implementation, actual splice monodromy, exact region reconstruction, all parallel occurrences, ordered horizontal boundary extension, restricted retraction paths and a horizontal-side low-cable negative control with demand three and six supported vertices. It never imports or executes an author checker.
 
-The seven `independent_*` programs preserve separately developed review implementations and do not import or execute author checkers. Packaging changed only comments, paths, fingerprints and report conventions; redundant author re-execution was removed. The retained mathematical functions and assertions were not replaced by the author's implementations. Fingerprints are relative to this package; timestamps and private source names are absent. New geometric checks were adapted in the same way. The author splice geometric diagnostic and the independent splice geometric review implementation are both included. In the latter, one arbitrary graph-edge label was renamed to avoid a private-code collision; after reversing that label substitution, its calculation functions match the source AST.
+## Graph-manifold diagnostics
+
+- `graph_manifold.py`: the author's packet-prefix, reduced-ribbon, integral-potential, relative-height, common-root, zero-face, true-simplex and horizontal-collar arithmetic tests.
+- `independent_graph_slicing.py`: independent preferred-longitude splice equations, the all-zero branch, retained-cone and empty-interface examples, a bounded free-group tree model, and exact open-sector index bounds.
+- `independent_graph_carrier.py`: independent bipartite-tree integer quotients, a strip with a free relative-height direction, a two-cone geometric tetrahedron, direct band-level rereading and exact strong-deformation identities.
+- `independent_graph_pl.py`: independently constructs PL regular layers, deletes actual circle components, rereads the surviving arc classes and potentials, and checks bounded collision continuity. Its explicit witness shows that retaining the pre-deletion potential can be wrong.
+
+These four programs preserve their source calculations. Their original text reports are captured as deterministic JSON output arrays; packaging removes private comments/docstrings and translates report labels. The three independent implementations do not import or execute the author's checker. A normalised AST comparison records that calculation code is retained, with only docstrings, print labels and the output envelope adjusted.
+
+The ten `independent_*` programs preserve separately developed review implementations and do not import or execute author checkers. Packaging changed only comments, paths, fingerprints and report conventions; redundant author re-execution was removed. The retained mathematical functions and assertions were not replaced by the author's implementations. Fingerprints are relative to this package; timestamps and private source names are absent. New geometric checks were adapted in the same way. The author splice geometric diagnostic and the independent splice geometric review implementation are both included. In the latter, one arbitrary graph-edge label was renamed to avoid a private-code collision; after reversing that label substitution, its calculation functions match the source AST.
 
 Bounded finite diagnostics cannot certify joint three-dimensional normalisation, arbitrary ambient-isotopy detection, the noncompact Sakuma interface, the stated simultaneous simplification input, infinite CW continuity or uniform contractibility. They supplement the numbered proofs and declared literature inputs. The arbitrary-input PL normaliser and complete parameter subdivision remain mathematical specifications rather than complete software. Code is MIT-licensed; see [LICENSE](../LICENSE).

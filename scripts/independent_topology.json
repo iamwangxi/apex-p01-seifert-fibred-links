@@ -354,8 +354,8 @@
   "script_sha256": "4767682fd515472f2778f2965b74047b48286336ecda3509448f0509b70ec108",
   "source_sha256": {
     "proof/class-distance.md": "7786c09aa26cffc8ab12099fe78b9e952537aed13721adda19e425c901adb2cc",
-    "proof/classification.md": "952fe68b46b73c2a195b9f3154bc81c628d3dbad5aa78c1438d5320af92ba10d",
-    "proof/objects.md": "5361d1d95f3bf9e871d329a3e0992b0b12fa9a45a4b832c86ac33cf99c49f1ce",
+    "proof/classification.md": "5010c4f0def364c117112452b31a2644079dd606793e93f14dded88885a3c551",
+    "proof/objects.md": "b4106c525cc9e331bba0c54175ef7c52034e6c176fb342fd13be26f8d406c2fb",
     "proof/two-boundaries.md": "fc075657bdfeea444f3019378c8975f2687cb5d28d20be2e6eec354e927afd83",
     "proof/vertex-bijection.md": "a9c2ed3586ffd6fad80f9e085fd7b72ea9443b08668e412c81afdeddad236388"
   },

@@ -1,0 +1,25 @@
+{
+  "output": [
+    "Hopf_line_pairs: 121",
+    "Hopf_line_rounding: 121",
+    "bipartite_tree_quotients: 2882",
+    "collar_index_checks: 1332",
+    "cone_SDR_checks: 825",
+    "cone_X_edges: 5",
+    "cone_X_triangles: 2",
+    "cone_Y_grid_points: 165",
+    "cone_Y_tetrahedra: 1",
+    "cone_band_level_decode: 169",
+    "cone_vertices: 4",
+    "cone_zero_faces: 48",
+    "rational_points: 1357",
+    "strip_edges: 17",
+    "strip_exact_simplex_recovery: 438",
+    "strip_supported_contraction: 891",
+    "strip_triangles: 8",
+    "strip_vertices: 10",
+    "strip_zero_faces: 66",
+    "PASS: finite support and band-level arithmetic; topology and template stability require the written proofs."
+  ],
+  "scope": "Finite diagnostics; not a topology certificate."
+}
